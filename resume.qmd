@@ -1,0 +1,145 @@
+---
+title: "Resume"
+format:
+  html:
+    theme: cosmo
+    page-layout: full
+    css: styles.css
+    include-in-header:
+      - text: |
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+---
+::: {.resume-container}
+::: {.rows}
+## <i class="fas fa-cogs"></i> Skills {.section-title}
+
+::: {.skill-category}
+**Programming**
+<div class="skill-tags">
+  <span class="skill-tag">Python</span>
+  <span class="skill-tag">R</span>
+  <span class="skill-tag">SQL</span>
+  <span class="skill-tag">Bash</span>
+</div>
+:::
+
+::: {.skill-category}
+**Data Science**
+<div class="skill-tags">
+  <span class="skill-tag">Pandas</span>
+  <span class="skill-tag">Scikit-learn</span>
+  <span class="skill-tag">TensorFlow</span>
+  <span class="skill-tag">XGBoost</span>
+  <span class="skill-tag">NLP</span>
+</div>
+:::
+
+::: {.skill-category}
+**Visualization**
+<div class="skill-tags">
+  <span class="skill-tag">Matplotlib</span>
+  <span class="skill-tag">Seaborn</span>
+  <span class="skill-tag">Plotly</span>
+  <span class="skill-tag">Tableau</span>
+  <span class="skill-tag">Power BI</span>
+</div>
+:::
+
+::: {.skill-category}
+**Tools & Platforms**
+<div class="skill-tags">
+  <span class="skill-tag">Git</span>
+  <span class="skill-tag">Docker</span>
+  <span class="skill-tag">AWS (S3, EC2)</span>
+  <span class="skill-tag">Jupyter</span>
+  <span class="skill-tag">VS Code</span>
+</div>
+:::
+
+::: {.skill-category}
+**Soft Skills**
+<div class="skill-tags">
+  <span class="skill-tag">Problem-solving</span>
+  <span class="skill-tag">Communication</span>
+  <span class="skill-tag">Team Leadership</span>
+  <span class="skill-tag">Agile/Scrum</span>
+</div>
+:::
+
+## <i class="fas fa-graduation-cap"></i> Education {.section-title}
+
+::: {.edu-item}
+**M.S. in Data Science**  
+*University of Techville*  
+<span class="item-date">2018 – 2020</span>  
+Thesis: Deep Learning for Time Series Forecasting
+:::
+
+::: {.edu-item}
+**B.S. in Statistics**  
+*State University*  
+<span class="item-date">2014 – 2018</span>  
+Minor in Computer Science
+:::
+
+## <i class="fas fa-globe"></i> Languages {.section-title}
+
+- English (Native)
+- Spanish (Professional working proficiency)
+
+:::
+
+::: {.col-md-8}
+
+## <i class="fas fa-briefcase"></i> Work Experience {.section-title}
+
+::: {.experience-item}
+<div class="item-header">
+  <div><span class="item-title">Data Scientist</span> <span class="item-company">| TechCorp</span></div>
+  <span class="item-date">Jan 2022 – Present</span>
+</div>
+- Developed customer lifetime value models, increasing marketing ROI by 20%.
+- Built and deployed an end-to-end recommendation engine on AWS, serving 2M+ users.
+- Led a team of 3 junior analysts; introduced MLOps practices that reduced model deployment time by 40%.
+:::
+
+::: {.experience-item}
+<div class="item-header">
+  <div><span class="item-title">Junior Data Analyst</span> <span class="item-company">| DataWorks</span></div>
+  <span class="item-date">Jun 2020 – Dec 2021</span>
+</div>
+- Automated weekly sales reports with Python and Tableau, saving 10+ hours per week.
+- Conducted A/B test analysis for product features, providing insights that guided a 15% lift in conversion.
+- Collaborated with the engineering team to design and maintain data pipelines using SQL and Airflow.
+:::
+
+
+## <i class="fas fa-laptop-code"></i> Projects {.section-title}
+
+::: {.project-item}
+<div class="item-header">
+  <div><span class="item-title">Customer Churn Prediction</span></div>
+  <span class="item-date">Personal Project</span>
+</div>
+- Built a classification model (XGBoost) achieving 0.89 AUC on a telecom dataset.
+- Interpreted key drivers using SHAP values and created an interactive Streamlit dashboard for business users.
+:::
+
+::: {.project-item}
+<div class="item-header">
+  <div><span class="item-title">Real-time Sales Dashboard</span></div>
+  <span class="item-date">Freelance</span>
+</div>
+- Designed a Power BI dashboard connected to a PostgreSQL database for a retail client.
+- Implemented incremental refresh, reducing data load time by 70%.
+:::
+
+::: {.project-item}
+<div class="item-header">
+  <div><span class="item-title">Sentiment Analysis on Social Media</span></div>
+  <span class="item-date">Academic</span>
+</div>
+- Fine-tuned a BERT model to classify tweets as positive/negative/neutral (F1-score 0.86).
+- Deployed the model as a REST API using FastAPI and Docker.
+:::
+:::

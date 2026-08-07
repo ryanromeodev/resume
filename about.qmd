@@ -1,0 +1,48 @@
+---
+title: "About Me"
+format:
+  html:
+    theme: cosmo
+    page-layout: full
+    css: styles.css
+    include-in-header:
+      - text: |
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+---
+
+::: {.resume-container}
+<!-- ::: {.profile-photo style="max-width: 300px;"}
+<img src="./photo.jpg" alt="Ryan Romeo">
+:::-->
+
+::: {style="max-width: 800px; margin: 1rem auto; padding: 0 1rem;"}
+  <!-- <h2 class="section-title"><i class="fas fa-user-graduate"></i> About Me</h2> -->
+  <p>
+    As a diligent and dedicated student, I consistently strive to approach my academic endeavors with a strong work ethic, meticulously dedicating my time and energy to understanding complex concepts, completing assignments thoroughly and on schedule, and actively participating in class discussions to deepen my comprehension and contribute meaningfully to the learning environment.As a diligent and dedicated student, I consistently strive to approach my academic endeavors with a strong work ethic, meticulously dedicating my time and energy to understanding complex concepts, completing assignments thoroughly and on schedule, and actively participating in class discussions to deepen my comprehension and contribute meaningfully to the learning environment.As a diligent and dedicated student, I consistently strive to approach my academic endeavors with a strong work ethic, meticulously dedicating my time and energy to understanding complex concepts, completing assignments thoroughly and on schedule, and actively participating in class discussions to deepen my comprehension and contribute meaningfully to the learning environment.
+  </p>
+
+<p>
+    As a diligent and dedicated student, I consistently strive to approach my academic endeavors with a strong work ethic, meticulously dedicating my time and energy to understanding complex concepts, completing assignments thoroughly and on schedule, and actively participating in class discussions to deepen my comprehension and contribute meaningfully to the learning environment.As a diligent and dedicated student, I consistently strive to approach my academic endeavors with a strong work ethic, meticulously dedicating my time and energy to understanding complex concepts, completing assignments thoroughly and on schedule, and actively participating in class discussions to deepen my comprehension and contribute meaningfully to the learning environment.As a diligent and dedicated student, I consistently strive to approach my academic endeavors with a strong work ethic, meticulously dedicating my time and energy to understanding complex concepts, completing assignments thoroughly and on schedule, and actively participating in class discussions to deepen my comprehension and contribute meaningfully to the learning environment.
+  </p>
+  <p>
+    As a diligent and dedicated student, I consistently strive to approach my academic endeavors with a strong work ethic, meticulously dedicating my time and energy to understanding complex concepts, completing assignments thoroughly and on schedule, and actively participating in class discussions to deepen my comprehension and contribute meaningfully to the learning environment.As a diligent and dedicated student, I consistently strive to approach my academic endeavors with a strong work ethic, meticulously dedicating my time and energy to understanding complex concepts, completing assignments thoroughly and on schedule, and actively participating in class discussions to deepen my comprehension and contribute meaningfully to the learning environment.As a diligent and dedicated student, I consistently strive to approach my academic endeavors with a strong work ethic, meticulously dedicating my time and energy to understanding complex concepts, completing assignments thoroughly and on schedule, and actively participating in class discussions to deepen my comprehension and contribute meaningfully to the learning environment.
+  </p>
+  <p>
+    As a diligent and dedicated student, I consistently strive to approach my academic endeavors with a strong work ethic, meticulously dedicating my time and energy to understanding complex concepts, completing assignments thoroughly and on schedule, and actively participating in class discussions to deepen my comprehension and contribute meaningfully to the learning environment.As a diligent and dedicated student, I consistently strive to approach my academic endeavors with a strong work ethic, meticulously dedicating my time and energy to understanding complex concepts, completing assignments thoroughly and on schedule, and actively participating in class discussions to deepen my comprehension and contribute meaningfully to the learning environment.As a diligent and dedicated student, I consistently strive to approach my academic endeavors with a strong work ethic, meticulously dedicating my time and energy to understanding complex concepts, completing assignments thoroughly and on schedule, and actively participating in class discussions to deepen my comprehension and contribute meaningfully to the learning environment.
+  </p>
+
+<!--
+  <h2 class="section-title"><i class="fas fa-cogs"></i> What I Do</h2>
+  <ul>
+    <li><strong>Machine Learning</strong> – building predictive models with Python, scikit-learn, TensorFlow</li>
+    <li><strong>Data Engineering</strong> – designing ETL pipelines with SQL, Airflow, dbt</li>
+    <li><strong>Visualization</strong> – creating dashboards with Tableau, Power BI, Plotly</li>
+  </ul>
+
+  <h2 class="section-title"><i class="fas fa-lightbulb"></i> Fun Facts</h2>
+  <p>
+    When I’m not wrangling data, you’ll find me hiking, playing the guitar, or experimenting with new recipes.
+  </p>
+-->
+:::
+:::

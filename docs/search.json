@@ -1,0 +1,79 @@
+[
+  {
+    "objectID": "resume.html",
+    "href": "resume.html",
+    "title": "Resume",
+    "section": "",
+    "text": "Programming\n\nPython R SQL Bash\n\n\n\nData Science\n\nPandas Scikit-learn TensorFlow XGBoost NLP\n\n\n\nVisualization\n\nMatplotlib Seaborn Plotly Tableau Power BI\n\n\n\nTools & Platforms\n\nGit Docker AWS (S3, EC2) Jupyter VS Code\n\n\n\nSoft Skills\n\nProblem-solving Communication Team Leadership Agile/Scrum\n\n\n\n\n\n\nM.S. in Data Science\nUniversity of Techville\n2018 – 2020\nThesis: Deep Learning for Time Series Forecasting\n\n\nB.S. in Statistics\nState University\n2014 – 2018\nMinor in Computer Science\n\n\n\n\n\nEnglish (Native)\nSpanish (Professional working proficiency)\n\n\n\n\n\n\n\n\n\nData Scientist | TechCorp\n\nJan 2022 – Present\n\n\nDeveloped customer lifetime value models, increasing marketing ROI by 20%.\nBuilt and deployed an end-to-end recommendation engine on AWS, serving 2M+ users.\nLed a team of 3 junior analysts; introduced MLOps practices that reduced model deployment time by 40%.\n\n\n\n\n\nJunior Data Analyst | DataWorks\n\nJun 2020 – Dec 2021\n\n\nAutomated weekly sales reports with Python and Tableau, saving 10+ hours per week.\nConducted A/B test analysis for product features, providing insights that guided a 15% lift in conversion.\nCollaborated with the engineering team to design and maintain data pipelines using SQL and Airflow.\n\n\n\n\n\n\n\n\nCustomer Churn Prediction\n\nPersonal Project\n\n\nBuilt a classification model (XGBoost) achieving 0.89 AUC on a telecom dataset.\nInterpreted key drivers using SHAP values and created an interactive Streamlit dashboard for business users.\n\n\n\n\n\nReal-time Sales Dashboard\n\nFreelance\n\n\nDesigned a Power BI dashboard connected to a PostgreSQL database for a retail client.\nImplemented incremental refresh, reducing data load time by 70%.\n\n\n\n\n\nSentiment Analysis on Social Media\n\nAcademic\n\n\nFine-tuned a BERT model to classify tweets as positive/negative/neutral (F1-score 0.86).\nDeployed the model as a REST API using FastAPI and Docker."
+  },
+  {
+    "objectID": "resume.html#skills",
+    "href": "resume.html#skills",
+    "title": "Resume",
+    "section": "",
+    "text": "Programming\n\nPython R SQL Bash\n\n\n\nData Science\n\nPandas Scikit-learn TensorFlow XGBoost NLP\n\n\n\nVisualization\n\nMatplotlib Seaborn Plotly Tableau Power BI\n\n\n\nTools & Platforms\n\nGit Docker AWS (S3, EC2) Jupyter VS Code\n\n\n\nSoft Skills\n\nProblem-solving Communication Team Leadership Agile/Scrum"
+  },
+  {
+    "objectID": "resume.html#education",
+    "href": "resume.html#education",
+    "title": "Resume",
+    "section": "",
+    "text": "M.S. in Data Science\nUniversity of Techville\n2018 – 2020\nThesis: Deep Learning for Time Series Forecasting\n\n\nB.S. in Statistics\nState University\n2014 – 2018\nMinor in Computer Science"
+  },
+  {
+    "objectID": "resume.html#languages",
+    "href": "resume.html#languages",
+    "title": "Resume",
+    "section": "",
+    "text": "English (Native)\nSpanish (Professional working proficiency)"
+  },
+  {
+    "objectID": "resume.html#work-experience",
+    "href": "resume.html#work-experience",
+    "title": "Resume",
+    "section": "",
+    "text": "Data Scientist | TechCorp\n\nJan 2022 – Present\n\n\nDeveloped customer lifetime value models, increasing marketing ROI by 20%.\nBuilt and deployed an end-to-end recommendation engine on AWS, serving 2M+ users.\nLed a team of 3 junior analysts; introduced MLOps practices that reduced model deployment time by 40%.\n\n\n\n\n\nJunior Data Analyst | DataWorks\n\nJun 2020 – Dec 2021\n\n\nAutomated weekly sales reports with Python and Tableau, saving 10+ hours per week.\nConducted A/B test analysis for product features, providing insights that guided a 15% lift in conversion.\nCollaborated with the engineering team to design and maintain data pipelines using SQL and Airflow."
+  },
+  {
+    "objectID": "resume.html#projects",
+    "href": "resume.html#projects",
+    "title": "Resume",
+    "section": "",
+    "text": "Customer Churn Prediction\n\nPersonal Project\n\n\nBuilt a classification model (XGBoost) achieving 0.89 AUC on a telecom dataset.\nInterpreted key drivers using SHAP values and created an interactive Streamlit dashboard for business users.\n\n\n\n\n\nReal-time Sales Dashboard\n\nFreelance\n\n\nDesigned a Power BI dashboard connected to a PostgreSQL database for a retail client.\nImplemented incremental refresh, reducing data load time by 70%.\n\n\n\n\n\nSentiment Analysis on Social Media\n\nAcademic\n\n\nFine-tuned a BERT model to classify tweets as positive/negative/neutral (F1-score 0.86).\nDeployed the model as a REST API using FastAPI and Docker."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Ryan Romeo | Data Scientist",
+    "section": "",
+    "text": "Ryan Romeo\n\nData Scientist\n\n ryan.romeo@email.com  (123) 456-7890  linkedin.com/in/ryanromeo  github.com/ryanromeo"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About Me",
+    "section": "",
+    "text": "As a diligent and dedicated student, I consistently strive to approach my academic endeavors with a strong work ethic, meticulously dedicating my time and energy to understanding complex concepts, completing assignments thoroughly and on schedule, and actively participating in class discussions to deepen my comprehension and contribute meaningfully to the learning environment.As a diligent and dedicated student, I consistently strive to approach my academic endeavors with a strong work ethic, meticulously dedicating my time and energy to understanding complex concepts, completing assignments thoroughly and on schedule, and actively participating in class discussions to deepen my comprehension and contribute meaningfully to the learning environment.As a diligent and dedicated student, I consistently strive to approach my academic endeavors with a strong work ethic, meticulously dedicating my time and energy to understanding complex concepts, completing assignments thoroughly and on schedule, and actively participating in class discussions to deepen my comprehension and contribute meaningfully to the learning environment.\n\n\nAs a diligent and dedicated student, I consistently strive to approach my academic endeavors with a strong work ethic, meticulously dedicating my time and energy to understanding complex concepts, completing assignments thoroughly and on schedule, and actively participating in class discussions to deepen my comprehension and contribute meaningfully to the learning environment.As a diligent and dedicated student, I consistently strive to approach my academic endeavors with a strong work ethic, meticulously dedicating my time and energy to understanding complex concepts, completing assignments thoroughly and on schedule, and actively participating in class discussions to deepen my comprehension and contribute meaningfully to the learning environment.As a diligent and dedicated student, I consistently strive to approach my academic endeavors with a strong work ethic, meticulously dedicating my time and energy to understanding complex concepts, completing assignments thoroughly and on schedule, and actively participating in class discussions to deepen my comprehension and contribute meaningfully to the learning environment.\n\n\nAs a diligent and dedicated student, I consistently strive to approach my academic endeavors with a strong work ethic, meticulously dedicating my time and energy to understanding complex concepts, completing assignments thoroughly and on schedule, and actively participating in class discussions to deepen my comprehension and contribute meaningfully to the learning environment.As a diligent and dedicated student, I consistently strive to approach my academic endeavors with a strong work ethic, meticulously dedicating my time and energy to understanding complex concepts, completing assignments thoroughly and on schedule, and actively participating in class discussions to deepen my comprehension and contribute meaningfully to the learning environment.As a diligent and dedicated student, I consistently strive to approach my academic endeavors with a strong work ethic, meticulously dedicating my time and energy to understanding complex concepts, completing assignments thoroughly and on schedule, and actively participating in class discussions to deepen my comprehension and contribute meaningfully to the learning environment.\n\n\nAs a diligent and dedicated student, I consistently strive to approach my academic endeavors with a strong work ethic, meticulously dedicating my time and energy to understanding complex concepts, completing assignments thoroughly and on schedule, and actively participating in class discussions to deepen my comprehension and contribute meaningfully to the learning environment.As a diligent and dedicated student, I consistently strive to approach my academic endeavors with a strong work ethic, meticulously dedicating my time and energy to understanding complex concepts, completing assignments thoroughly and on schedule, and actively participating in class discussions to deepen my comprehension and contribute meaningfully to the learning environment.As a diligent and dedicated student, I consistently strive to approach my academic endeavors with a strong work ethic, meticulously dedicating my time and energy to understanding complex concepts, completing assignments thoroughly and on schedule, and actively participating in class discussions to deepen my comprehension and contribute meaningfully to the learning environment."
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Welcome to my project portfolio! You can search through them or click the categories on the side.\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nProject Beta\n\n\n\nMachine Learning\n\nAnsys\n\n\n\nA short description of my first project that will appear on the listing page.\n\n\n\n\n\n\nAug 23, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nProject Alpha\n\n\n\nMachine Learning\n\nWeb Dev\n\n\n\nA short description of my first project that will appear on the listing page.\n\n\n\n\n\n\nAug 7, 2026\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/post1.html",
+    "href": "posts/post1.html",
+    "title": "Project Alpha",
+    "section": "",
+    "text": "Hi it’s post 1. Below is the detailed view of my project:\n\nHere I can write a long, detailed explanation of the project, include code blocks, and show more results!"
+  },
+  {
+    "objectID": "posts/post2.html",
+    "href": "posts/post2.html",
+    "title": "Project Beta",
+    "section": "",
+    "text": "Hi it’s post 2. Below is the detailed view of my project:\n\nHere I can write a long, detailed explanation of the project, include code blocks, and show more results!"
+  }
+]
