@@ -9,10 +9,10 @@ website:
     left:
       - text: "Über mich"
         file: de/about.qmd
-      - text: "Projekte"
-        file: de/projects.qmd
       - text: "Lebenslauf"
         file: de/resume.qmd
+      - text: "Projekte"
+        file: de/projects.qmd
     right:
       # - icon: github
       #   href: https://github.com/ryanromeo
