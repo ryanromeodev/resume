@@ -10,12 +10,12 @@ format:
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 ---
 
-::: {.resume-container}
+<!--::: {.resume-container}-->
 <!-- ::: {.profile-photo style="max-width: 300px;"}
 <img src="./photo.jpg" alt="Ryan Romeo">
 :::-->
 
-::: {style="max-width: 800px; margin: 1rem auto; padding: 0 1rem;"}
+::: {style="max-width: 1200px; margin: 1rem auto; padding: 0 2rem;"}
 Nach meinem Abschluss als Bachelor of Technology (B.Tech) in Elektrotechnik und Elektronik absolviere ich derzeit an der Hochschule Bremen ein Masterstudium (M.Sc.) im Bereich Elektronik mit dem Schwerpunkt „Intelligente Sensorik und Messtechnik“. Ich spreche fließend Englisch und kann mich problemlos auf Deutsch verständigen.
 
 Beruflich war ich zuvor als Assistant Systems Engineer bei Tata Consultancy Services Ltd. tätig, wo ich im Einzelhandelssektor zum Entwicklungsteam für den Kunden „The Home Depot“ gehörte. Zu meinen Aufgaben gehörten die Entwicklung, Migration und Bereitstellung von Webanwendungen. Dabei legte ich großen Wert auf gut getesteten, wartungsfreundlichen Code, eine klare Dokumentation sowie eine enge Zusammenarbeit mit Kunden in agilen Umgebungen (Scrum). Ich verfüge über fundierte Kenntnisse in C++, Java, Python und Dart.
@@ -26,4 +26,4 @@ Um meine praktischen Elektronikkenntnisse zu vertiefen, habe ich ein Biquad-Filt
 
 Neben meinen technischen Interessen begeistere ich mich für Videospiele (Minecraft und Skyrim) und Literatur – von Klassikern wie „1984“ und „Schuld und Sühne“ bis hin zu modernen Romanen wie „Kafka am Strand“.
 :::
-:::
+<!--:::-->

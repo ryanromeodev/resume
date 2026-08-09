@@ -1,10 +1,31 @@
 [
   {
+    "objectID": "de/about.html",
+    "href": "de/about.html",
+    "title": "Über mich",
+    "section": "",
+    "text": "Nach meinem Abschluss als Bachelor of Technology (B.Tech) in Elektrotechnik und Elektronik absolviere ich derzeit an der Hochschule Bremen ein Masterstudium (M.Sc.) im Bereich Elektronik mit dem Schwerpunkt „Intelligente Sensorik und Messtechnik“. Ich spreche fließend Englisch und kann mich problemlos auf Deutsch verständigen.\nBeruflich war ich zuvor als Assistant Systems Engineer bei Tata Consultancy Services Ltd. tätig, wo ich im Einzelhandelssektor zum Entwicklungsteam für den Kunden „The Home Depot“ gehörte. Zu meinen Aufgaben gehörten die Entwicklung, Migration und Bereitstellung von Webanwendungen. Dabei legte ich großen Wert auf gut getesteten, wartungsfreundlichen Code, eine klare Dokumentation sowie eine enge Zusammenarbeit mit Kunden in agilen Umgebungen (Scrum). Ich verfüge über fundierte Kenntnisse in C++, Java, Python und Dart.\nIch erweitere meine Fähigkeiten kontinuierlich durch eigene Projekte, wie etwa eine App zur Pflanzenpflege, die ich mit Flutter und Dart entwickelt habe. Sie bietet Funktionen wie zeitbasierte Erinnerungen zum Düngen, lokale Datenspeicherung (JSON), Optionen für Dark- und Light-Modus, Mehrsprachigkeit sowie eine Benachrichtigungssteuerung. Zudem nutze ich Jupyter Notebooks und NumPy für die Datenvisualisierung und -analyse, insbesondere im Kontext von Elektronik- und Sensordaten.\nUm meine praktischen Elektronikkenntnisse zu vertiefen, habe ich ein Biquad-Filter zur Isolierung spezifischer Frequenzen entworfen und gelötet. Dieses Projekt ermöglichte es mir, meine praktischen Fertigkeiten in der Arbeit mit KiCAD (für Schaltplan- und Leiterplattenentwurf) sowie beim SMD-Löten aufzufrischen.\nNeben meinen technischen Interessen begeistere ich mich für Videospiele (Minecraft und Skyrim) und Literatur – von Klassikern wie „1984“ und „Schuld und Sühne“ bis hin zu modernen Romanen wie „Kafka am Strand“."
+  },
+  {
+    "objectID": "de/projects.html",
+    "href": "de/projects.html",
+    "title": "Projekte",
+    "section": "",
+    "text": "Welcome to my project portfolio! You can search through them or click the categories on the side.\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nProject Beta\n\n\n\nMachine Learning\n\nAnsys\n\n\n\nA short description of my first project that will appear on the listing page.\n\n\n\n\n\n\n23.08.2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nProject Alpha\n\n\n\nMachine Learning\n\nWeb Dev\n\n\n\nA short description of my first project that will appear on the listing page.\n\n\n\n\n\n\n07.08.2026\n\n\n\n\n\n\nKeine Treffer"
+  },
+  {
+    "objectID": "de/posts/post1.html",
+    "href": "de/posts/post1.html",
+    "title": "Project Alpha",
+    "section": "",
+    "text": "Hi it’s post 1. Below is the detailed view of my project:\n\nHere I can write a long, detailed explanation of the project, include code blocks, and show more results!"
+  },
+  {
     "objectID": "de/resume.html",
     "href": "de/resume.html",
     "title": "Lebenslauf",
     "section": "",
-    "text": "English (Native)\nDeutsch (Professionelle Arbeitskenntnisse)\n\n\n\n\n\nMSc. Electronics Engineering\nCity-University of Applied Sciences Bremen\n2023 – 2026\nSpezialisierung: Intelligent Sensors and Instrumentation\n\nModellierung und Dokumentation eines 3-Phasen-Messsystems mit LabVIEW und Arduino Mega 2560.\nÜberprüfung der Ausgangseigenschaften des Transistors (BC547B) mit LabVIEW\nEs wurden Projekte durchgeführt und dokumentiert, um die Zuckerkonzentration in einer Zuckerlösung zu ermitteln. Zur Validierung der Ergebnisse wurden Python-Bibliotheken wie Numpy, Matploitlib und Scipy_curvefit verwendet.\nZertifiziert durch einen Udemy-Kurs zur Mikrocontroller-Embedded-C-Programmierung und Dokumentation eines durchgeführten Seminars zum Thema des Anwendungsfalls von Python in Instrumentierungs- und Messsystemen.\nDerzeit arbeite ich von Grund auf an der Flutter-Anwendung eines Sudoku-Lösers.\n\n\n\nBatchelor of Technology\nA P J ABDUL KALAM TECHNOLOGICAL UNIVERSITY\n2017 – 2021\nElektrotechnik und Elektronik\n\nEntwicklung einer Anwendung zur Anlagenwartung mit Java und anschließende Migration der Anwendung auf Flutter.\nTeilnahme an Zertifizierungskursen des Indian Institute of Technology zu den Themen Java-Programmierung sowie Sensoren und Aktoren.\nEntwurf eines Prototyps zur Steuerung der Laststufenschaltung eines Konvertertransformators für die Hochspannungs-Gleichstrom-Übertragung (HGÜ).\n\n\n\n\n\n\nProgramming\n\nPython R SQL Bash\n\n\n\n\n\n\n\n\n\n\nAssistant Systems Engineer | TATA CONSULTANCY SERVICES Ltd.\n\nJuly 2021 – July 2023\n\nIch habe als Assistant Systems Engineer für The Home Depot gearbeitet.\n\nZu meinen Aufgaben und Verantwortlichkeiten gehörte die Entwicklung, Migration, das Testen und die Bereitstellung von Anwendungen für den internen und externen Einzelhandelsbereich von The Home Depot unter Anwendung der Scrum-Methodik.\nIch koordinierte formelle Review-Meetings mit den zuständigen Verantwortlichen und Managern vor Ort, um Arbeitsergebnisse und Zeitpläne zu besprechen; zudem erstellte ich eine detaillierte Dokumentation der Anwendungen, um reibungslose Arbeitsabläufe und einen störungsfreien Datentransfer zu gewährleisten.\n\n\n\n\n\nAssistant Systems Engineer | TATA CONSULTANCY SERVICES Ltd.\n\nJuly 2021 – July 2023\n\nI worked as Assistant Systems Engineer for The Home Depot.\n\nMy job and responsibilities were to develop, migrate test and deploy applications which benefited the internal and external retail domain of The Home Depot in scrum methodology\nCo-ordinated formal review meetings with rangers and on-site managers to discuss the deliverables and timelines along with in depth documentation of the application to ensure smooth workflow and data transfer.\n\n\n\n\n\n\n\n\nCustomer Churn Prediction\n\nPersonal Project\n\n\nBuilt a classification model (XGBoost) achieving 0.89 AUC on a telecom dataset.\nInterpreted key drivers using SHAP values and created an interactive Streamlit dashboard for business users.\n\n\n\n\n\nReal-time Sales Dashboard\n\nFreelance\n\n\nDesigned a Power BI dashboard connected to a PostgreSQL database for a retail client.\nImplemented incremental refresh, reducing data load time by 70%.\n\n\n\n\n\nSentiment Analysis on Social Media\n\nAcademic\n\n\nFine-tuned a BERT model to classify tweets as positive/negative/neutral (F1-score 0.86).\nDeployed the model as a REST API using FastAPI and Docker."
+    "text": "English (Native)\nDeutsch (Professionelle Arbeitskenntnisse)\n\n\n\n\n\nMSc. Electronics Engineering\nCity-University of Applied Sciences Bremen\n2023 – 2026\nSpezialisierung: Intelligent Sensors and Instrumentation\n\nModellierung und Dokumentation eines 3-Phasen-Messsystems mit LabVIEW und Arduino Mega 2560.\nÜberprüfung der Ausgangseigenschaften des Transistors (BC547B) mit LabVIEW\nEs wurden Projekte durchgeführt und dokumentiert, um die Zuckerkonzentration in einer Zuckerlösung zu ermitteln. Zur Validierung der Ergebnisse wurden Python-Bibliotheken wie Numpy, Matploitlib und Scipy_curvefit verwendet.\nZertifiziert durch einen Udemy-Kurs zur Mikrocontroller-Embedded-C-Programmierung und Dokumentation eines durchgeführten Seminars zum Thema des Anwendungsfalls von Python in Instrumentierungs- und Messsystemen.\nDerzeit arbeite ich von Grund auf an der Flutter-Anwendung eines Sudoku-Lösers.\n\n\n\nBatchelor of Technology\nA P J ABDUL KALAM TECHNOLOGICAL UNIVERSITY\n2017 – 2021\nElektrotechnik und Elektronik\n\nEntwicklung einer Anwendung zur Anlagenwartung mit Java und anschließende Migration der Anwendung auf Flutter.\nTeilnahme an Zertifizierungskursen des Indian Institute of Technology zu den Themen Java-Programmierung sowie Sensoren und Aktoren.\nEntwurf eines Prototyps zur Steuerung der Laststufenschaltung eines Konvertertransformators für die Hochspannungs-Gleichstrom-Übertragung (HGÜ).\n\n\n\n\n\n\nProgramming\n\nPython R SQL Bash"
   },
   {
     "objectID": "de/resume.html#sprachen",
@@ -31,15 +52,15 @@
     "objectID": "de/resume.html#berufserfahrung",
     "href": "de/resume.html#berufserfahrung",
     "title": "Lebenslauf",
-    "section": "",
-    "text": "Assistant Systems Engineer | TATA CONSULTANCY SERVICES Ltd.\n\nJuly 2021 – July 2023\n\nIch habe als Assistant Systems Engineer für The Home Depot gearbeitet.\n\nZu meinen Aufgaben und Verantwortlichkeiten gehörte die Entwicklung, Migration, das Testen und die Bereitstellung von Anwendungen für den internen und externen Einzelhandelsbereich von The Home Depot unter Anwendung der Scrum-Methodik.\nIch koordinierte formelle Review-Meetings mit den zuständigen Verantwortlichen und Managern vor Ort, um Arbeitsergebnisse und Zeitpläne zu besprechen; zudem erstellte ich eine detaillierte Dokumentation der Anwendungen, um reibungslose Arbeitsabläufe und einen störungsfreien Datentransfer zu gewährleisten.\n\n\n\n\n\nAssistant Systems Engineer | TATA CONSULTANCY SERVICES Ltd.\n\nJuly 2021 – July 2023\n\nI worked as Assistant Systems Engineer for The Home Depot.\n\nMy job and responsibilities were to develop, migrate test and deploy applications which benefited the internal and external retail domain of The Home Depot in scrum methodology\nCo-ordinated formal review meetings with rangers and on-site managers to discuss the deliverables and timelines along with in depth documentation of the application to ensure smooth workflow and data transfer."
+    "section": " Berufserfahrung",
+    "text": "Berufserfahrung\n\n\n\nAssistant Systems Engineer | TATA CONSULTANCY SERVICES Ltd.\n\nJuly 2021 – July 2023\n\nIch habe als Assistant Systems Engineer für The Home Depot gearbeitet.\n\nZu meinen Aufgaben und Verantwortlichkeiten gehörte die Entwicklung, Migration, das Testen und die Bereitstellung von Anwendungen für den internen und externen Einzelhandelsbereich von The Home Depot unter Anwendung der Scrum-Methodik.\nIch koordinierte formelle Review-Meetings mit den zuständigen Verantwortlichen und Managern vor Ort, um Arbeitsergebnisse und Zeitpläne zu besprechen; zudem erstellte ich eine detaillierte Dokumentation der Anwendungen, um reibungslose Arbeitsabläufe und einen störungsfreien Datentransfer zu gewährleisten.\n\n\n\n\n\nAssistant Systems Engineer | TATA CONSULTANCY SERVICES Ltd.\n\nJuly 2021 – July 2023\n\nI worked as Assistant Systems Engineer for The Home Depot.\n\nMy job and responsibilities were to develop, migrate test and deploy applications which benefited the internal and external retail domain of The Home Depot in scrum methodology\nCo-ordinated formal review meetings with rangers and on-site managers to discuss the deliverables and timelines along with in depth documentation of the application to ensure smooth workflow and data transfer."
   },
   {
     "objectID": "de/resume.html#projekte",
     "href": "de/resume.html#projekte",
     "title": "Lebenslauf",
-    "section": "",
-    "text": "Customer Churn Prediction\n\nPersonal Project\n\n\nBuilt a classification model (XGBoost) achieving 0.89 AUC on a telecom dataset.\nInterpreted key drivers using SHAP values and created an interactive Streamlit dashboard for business users.\n\n\n\n\n\nReal-time Sales Dashboard\n\nFreelance\n\n\nDesigned a Power BI dashboard connected to a PostgreSQL database for a retail client.\nImplemented incremental refresh, reducing data load time by 70%.\n\n\n\n\n\nSentiment Analysis on Social Media\n\nAcademic\n\n\nFine-tuned a BERT model to classify tweets as positive/negative/neutral (F1-score 0.86).\nDeployed the model as a REST API using FastAPI and Docker."
+    "section": " Projekte",
+    "text": "Projekte\n\n\n\nCustomer Churn Prediction\n\nPersonal Project\n\n\nBuilt a classification model (XGBoost) achieving 0.89 AUC on a telecom dataset.\nInterpreted key drivers using SHAP values and created an interactive Streamlit dashboard for business users.\n\n\n\n\n\nReal-time Sales Dashboard\n\nFreelance\n\n\nDesigned a Power BI dashboard connected to a PostgreSQL database for a retail client.\nImplemented incremental refresh, reducing data load time by 70%.\n\n\n\n\n\nSentiment Analysis on Social Media\n\nAcademic\n\n\nFine-tuned a BERT model to classify tweets as positive/negative/neutral (F1-score 0.86).\nDeployed the model as a REST API using FastAPI and Docker."
   },
   {
     "objectID": "de/posts/post2.html",
@@ -54,26 +75,5 @@
     "title": "Ryan Romeo",
     "section": "",
     "text": "Ryan Romeo\n\nElektronikingenieur\n\n ryanromeode@gmail.com (+49) 15212 6696 75  linkedin.com/ryanromeo  github.com/ryanromeodev"
-  },
-  {
-    "objectID": "de/about.html",
-    "href": "de/about.html",
-    "title": "Über mich",
-    "section": "",
-    "text": "Nach meinem Abschluss als Bachelor of Technology (B.Tech) in Elektrotechnik und Elektronik absolviere ich derzeit an der Hochschule Bremen ein Masterstudium (M.Sc.) im Bereich Elektronik mit dem Schwerpunkt „Intelligente Sensorik und Messtechnik“. Ich spreche fließend Englisch und kann mich problemlos auf Deutsch verständigen.\nBeruflich war ich zuvor als Assistant Systems Engineer bei Tata Consultancy Services Ltd. tätig, wo ich im Einzelhandelssektor zum Entwicklungsteam für den Kunden „The Home Depot“ gehörte. Zu meinen Aufgaben gehörten die Entwicklung, Migration und Bereitstellung von Webanwendungen. Dabei legte ich großen Wert auf gut getesteten, wartungsfreundlichen Code, eine klare Dokumentation sowie eine enge Zusammenarbeit mit Kunden in agilen Umgebungen (Scrum). Ich verfüge über fundierte Kenntnisse in C++, Java, Python und Dart.\nIch erweitere meine Fähigkeiten kontinuierlich durch eigene Projekte, wie etwa eine App zur Pflanzenpflege, die ich mit Flutter und Dart entwickelt habe. Sie bietet Funktionen wie zeitbasierte Erinnerungen zum Düngen, lokale Datenspeicherung (JSON), Optionen für Dark- und Light-Modus, Mehrsprachigkeit sowie eine Benachrichtigungssteuerung. Zudem nutze ich Jupyter Notebooks und NumPy für die Datenvisualisierung und -analyse, insbesondere im Kontext von Elektronik- und Sensordaten.\nUm meine praktischen Elektronikkenntnisse zu vertiefen, habe ich ein Biquad-Filter zur Isolierung spezifischer Frequenzen entworfen und gelötet. Dieses Projekt ermöglichte es mir, meine praktischen Fertigkeiten in der Arbeit mit KiCAD (für Schaltplan- und Leiterplattenentwurf) sowie beim SMD-Löten aufzufrischen.\nNeben meinen technischen Interessen begeistere ich mich für Videospiele (Minecraft und Skyrim) und Literatur – von Klassikern wie „1984“ und „Schuld und Sühne“ bis hin zu modernen Romanen wie „Kafka am Strand“."
-  },
-  {
-    "objectID": "de/posts/post1.html",
-    "href": "de/posts/post1.html",
-    "title": "Project Alpha",
-    "section": "",
-    "text": "Hi it’s post 1. Below is the detailed view of my project:\n\nHere I can write a long, detailed explanation of the project, include code blocks, and show more results!"
-  },
-  {
-    "objectID": "de/projects.html",
-    "href": "de/projects.html",
-    "title": "Projekte",
-    "section": "",
-    "text": "Welcome to my project portfolio! You can search through them or click the categories on the side.\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nProject Beta\n\n\n\nMachine Learning\n\nAnsys\n\n\n\nA short description of my first project that will appear on the listing page.\n\n\n\n\n\n\n23.08.2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nProject Alpha\n\n\n\nMachine Learning\n\nWeb Dev\n\n\n\nA short description of my first project that will appear on the listing page.\n\n\n\n\n\n\n07.08.2026\n\n\n\n\n\n\nKeine Treffer"
   }
 ]
