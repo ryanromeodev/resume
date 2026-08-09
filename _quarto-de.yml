@@ -14,7 +14,7 @@ website:
       - text: "Lebenslauf"
         file: de/resume.qmd
     right:
-      - icon: github
-        href: https://github.com/ryanromeo
+      # - icon: github
+      #   href: https://github.com/ryanromeo
       - text: "English"
         href: /en/index.html

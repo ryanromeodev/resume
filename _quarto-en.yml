@@ -13,7 +13,7 @@ website:
       - text: "Resume"
         file: en/resume.qmd
     right:
-      - icon: github
-        href: https://github.com/ryanromeo
+      # - icon: github
+      #   href: https://github.com/ryanromeo
       - text: "Deutsch"
         href: /de/index.html
