@@ -4,7 +4,7 @@ project:
 
 website:
   title: "Ryan Romeo"
-  favicon: images/favicon.ico
+  favicon: images/icon.ico
   page-navigation: true
   search: true
 
