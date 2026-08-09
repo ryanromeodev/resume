@@ -1,5 +1,3 @@
-lang: en-US
-
 project:
   render:
     - index.qmd
