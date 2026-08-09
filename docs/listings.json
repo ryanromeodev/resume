@@ -1,12 +1,5 @@
 [
   {
-    "listing": "/de/projects.html",
-    "items": [
-      "/de/posts/post2.html",
-      "/de/posts/post1.html"
-    ]
-  },
-  {
     "listing": "/en/projects.html",
     "items": [
       "/en/posts/post2.html",
