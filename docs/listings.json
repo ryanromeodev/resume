@@ -1,9 +1,9 @@
 [
   {
-    "listing": "/en/projects.html",
+    "listing": "/de/projects.html",
     "items": [
-      "/en/posts/post2.html",
-      "/en/posts/post1.html"
+      "/de/posts/post2.html",
+      "/de/posts/post1.html"
     ]
   }
 ]

@@ -1,79 +1,72 @@
 [
   {
-    "objectID": "en/resume.html",
-    "href": "en/resume.html",
+    "objectID": "de/resume.html",
+    "href": "de/resume.html",
     "title": "Resume",
     "section": "",
     "text": "English (Native)\nDeutsch (Professional working proficiency)\n\n\n\n\n\nMSc. Electronics Engineering\nCity-University of Applied Sciences Bremen\n2023 – 2026\nSpecialization: Intelligent Sensors and Instrumentation\n\nModelling and documentation of 3 - phase measurement system using LabVIEW and Arduino Mega 2560.\nVerification of the output Characteristics of Transistor (BC547B) using LabVIEW\nProjects were done and documented to find the concentration of sugar in a sample sugar solution and used python libraries like numpy, matploitlib, scipy_curvefit to validate the results.\nCertified with a Udemy course on Microcontroller Embedded C Programming and documented a seminar done on the topic of the use case of python in Instrumentation and measurement systems.\nCurrently working on Flutter application of a sudoku solver from scratch.\n\n\n\nBatchelor of Technology\nA P J ABDUL KALAM TECHNOLOGICAL UNIVERSITY\n2017 – 2021\nElectrical and Electronics Engineering\n\nCreated a plant maintenance application using Java and later migrated the application to Flutter.\nAttended certification courses on programming in java, sensors and actuators from Indian Institute of Technology\nDesigned a prototype to control the on-load tap changing for HVDC ’ converter transformer.\n\n\n\n\n\n\nProgramming\n\nPython R SQL Bash\n\n\n\nData Science\n\nPandas Scikit-learn TensorFlow XGBoost NLP\n\n\n\nVisualization\n\nMatplotlib Seaborn Plotly Tableau Power BI\n\n\n\nTools & Platforms\n\nGit Docker AWS (S3, EC2) Jupyter VS Code\n\n\n\nSoft Skills\n\nProblem-solving Communication Team Leadership Agile/Scrum\n\n\n\n\n\n\n\n\n\n\nAssistant Systems Engineer | TATA CONSULTANCY SERVICES Ltd.\n\nJuly 2021 – July 2023\n\nI worked as Assistant Systems Engineer for The Home Depot.\n\nMy job and responsibilities were to develop, migrate test and deploy applications which benefited the internal and external retail domain of The Home Depot in scrum methodology\nCo-ordinated formal review meetings with rangers and on-site managers to discuss the deliverables and timelines along with in depth documentation of the application to ensure smooth workflow and data transfer.\n\n\n\n\n\nAssistant Systems Engineer | TATA CONSULTANCY SERVICES Ltd.\n\nJuly 2021 – July 2023\n\nI worked as Assistant Systems Engineer for The Home Depot.\n\nMy job and responsibilities were to develop, migrate test and deploy applications which benefited the internal and external retail domain of The Home Depot in scrum methodology\nCo-ordinated formal review meetings with rangers and on-site managers to discuss the deliverables and timelines along with in depth documentation of the application to ensure smooth workflow and data transfer.\n\n\n\n\n\n\n\n\nCustomer Churn Prediction\n\nPersonal Project\n\n\nBuilt a classification model (XGBoost) achieving 0.89 AUC on a telecom dataset.\nInterpreted key drivers using SHAP values and created an interactive Streamlit dashboard for business users.\n\n\n\n\n\nReal-time Sales Dashboard\n\nFreelance\n\n\nDesigned a Power BI dashboard connected to a PostgreSQL database for a retail client.\nImplemented incremental refresh, reducing data load time by 70%.\n\n\n\n\n\nSentiment Analysis on Social Media\n\nAcademic\n\n\nFine-tuned a BERT model to classify tweets as positive/negative/neutral (F1-score 0.86).\nDeployed the model as a REST API using FastAPI and Docker."
   },
   {
-    "objectID": "en/resume.html#languages",
-    "href": "en/resume.html#languages",
+    "objectID": "de/resume.html#languages",
+    "href": "de/resume.html#languages",
     "title": "Resume",
     "section": "",
     "text": "English (Native)\nDeutsch (Professional working proficiency)"
   },
   {
-    "objectID": "en/resume.html#education",
-    "href": "en/resume.html#education",
+    "objectID": "de/resume.html#education",
+    "href": "de/resume.html#education",
     "title": "Resume",
     "section": "",
     "text": "MSc. Electronics Engineering\nCity-University of Applied Sciences Bremen\n2023 – 2026\nSpecialization: Intelligent Sensors and Instrumentation\n\nModelling and documentation of 3 - phase measurement system using LabVIEW and Arduino Mega 2560.\nVerification of the output Characteristics of Transistor (BC547B) using LabVIEW\nProjects were done and documented to find the concentration of sugar in a sample sugar solution and used python libraries like numpy, matploitlib, scipy_curvefit to validate the results.\nCertified with a Udemy course on Microcontroller Embedded C Programming and documented a seminar done on the topic of the use case of python in Instrumentation and measurement systems.\nCurrently working on Flutter application of a sudoku solver from scratch.\n\n\n\nBatchelor of Technology\nA P J ABDUL KALAM TECHNOLOGICAL UNIVERSITY\n2017 – 2021\nElectrical and Electronics Engineering\n\nCreated a plant maintenance application using Java and later migrated the application to Flutter.\nAttended certification courses on programming in java, sensors and actuators from Indian Institute of Technology\nDesigned a prototype to control the on-load tap changing for HVDC ’ converter transformer."
   },
   {
-    "objectID": "en/resume.html#skills",
-    "href": "en/resume.html#skills",
+    "objectID": "de/resume.html#skills",
+    "href": "de/resume.html#skills",
     "title": "Resume",
     "section": "",
     "text": "Programming\n\nPython R SQL Bash\n\n\n\nData Science\n\nPandas Scikit-learn TensorFlow XGBoost NLP\n\n\n\nVisualization\n\nMatplotlib Seaborn Plotly Tableau Power BI\n\n\n\nTools & Platforms\n\nGit Docker AWS (S3, EC2) Jupyter VS Code\n\n\n\nSoft Skills\n\nProblem-solving Communication Team Leadership Agile/Scrum"
   },
   {
-    "objectID": "en/resume.html#work-experience",
-    "href": "en/resume.html#work-experience",
+    "objectID": "de/resume.html#work-experience",
+    "href": "de/resume.html#work-experience",
     "title": "Resume",
     "section": "",
     "text": "Assistant Systems Engineer | TATA CONSULTANCY SERVICES Ltd.\n\nJuly 2021 – July 2023\n\nI worked as Assistant Systems Engineer for The Home Depot.\n\nMy job and responsibilities were to develop, migrate test and deploy applications which benefited the internal and external retail domain of The Home Depot in scrum methodology\nCo-ordinated formal review meetings with rangers and on-site managers to discuss the deliverables and timelines along with in depth documentation of the application to ensure smooth workflow and data transfer.\n\n\n\n\n\nAssistant Systems Engineer | TATA CONSULTANCY SERVICES Ltd.\n\nJuly 2021 – July 2023\n\nI worked as Assistant Systems Engineer for The Home Depot.\n\nMy job and responsibilities were to develop, migrate test and deploy applications which benefited the internal and external retail domain of The Home Depot in scrum methodology\nCo-ordinated formal review meetings with rangers and on-site managers to discuss the deliverables and timelines along with in depth documentation of the application to ensure smooth workflow and data transfer."
   },
   {
-    "objectID": "en/resume.html#projects",
-    "href": "en/resume.html#projects",
+    "objectID": "de/resume.html#projects",
+    "href": "de/resume.html#projects",
     "title": "Resume",
     "section": "",
     "text": "Customer Churn Prediction\n\nPersonal Project\n\n\nBuilt a classification model (XGBoost) achieving 0.89 AUC on a telecom dataset.\nInterpreted key drivers using SHAP values and created an interactive Streamlit dashboard for business users.\n\n\n\n\n\nReal-time Sales Dashboard\n\nFreelance\n\n\nDesigned a Power BI dashboard connected to a PostgreSQL database for a retail client.\nImplemented incremental refresh, reducing data load time by 70%.\n\n\n\n\n\nSentiment Analysis on Social Media\n\nAcademic\n\n\nFine-tuned a BERT model to classify tweets as positive/negative/neutral (F1-score 0.86).\nDeployed the model as a REST API using FastAPI and Docker."
   },
   {
-    "objectID": "en/posts/post2.html",
-    "href": "en/posts/post2.html",
+    "objectID": "de/posts/post2.html",
+    "href": "de/posts/post2.html",
     "title": "Project Beta",
     "section": "",
     "text": "Hi it’s post 2. Below is the detailed view of my project:\n\nHere I can write a long, detailed explanation of the project, include code blocks, and show more results!"
   },
   {
-    "objectID": "en/about.html",
-    "href": "en/about.html",
+    "objectID": "de/about.html",
+    "href": "de/about.html",
     "title": "About Me",
     "section": "",
     "text": "I am currently pursuing an M.Sc. in Electronics, specializing in Intelligent Sensors and Instrumentation at Hochschule Bremen, following my completion of a B.Tech in Electrical and Electronics Engineering. I am fluent in English and can converse comfortably in German.\nProfessionally, I previously worked as an Assistant Systems Engineer at Tata Consultancy Services Ltd., where I was part of the development team for The Home Depot in the retail domain. My responsibilities included web application development, migration, and deployment, with a strong focus on writing well-tested, maintainable code, producing clear documentation, and working closely with clients in Agile/Scrum environments. I am proficient in C++, Java, Python, and Dart.\nI actively develop my skills through personal projects, such as a Plant Care App built with Flutter/Dart. It features timeline-based fertilizing reminders, local JSON-based storage, dark/light theme options, multilingual support, and notification scheduling. I also use Jupyter notebooks and NumPy for data visualization and analysis, particularly for applications in electronics and sensor data.\nTo further my practical electronics knowledge, I designed and soldered a Biquad Filter to isolate specific frequencies—a project that refreshed my hands-on skills with KiCAD for schematic/PCB design and SMD soldering techniques.\nBeyond my technical pursuits, I enjoy gaming (Minecraft and Skyrim) and reading literature, from classics like 1984 and Crime and Punishment to modern novels like Kafka on the Shore. –&gt;"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Ryan Romeo",
-    "section": "",
-    "text": "Ryan Romeo\n\nData Scientist\n\n ryan.romeo@email.com  (123) 456-7890  linkedin.com/in/ryanromeo  github.com/ryanromeo"
-  },
-  {
-    "objectID": "en/posts/post1.html",
-    "href": "en/posts/post1.html",
+    "objectID": "de/posts/post1.html",
+    "href": "de/posts/post1.html",
     "title": "Project Alpha",
     "section": "",
     "text": "Hi it’s post 1. Below is the detailed view of my project:\n\nHere I can write a long, detailed explanation of the project, include code blocks, and show more results!"
   },
   {
-    "objectID": "en/projects.html",
-    "href": "en/projects.html",
+    "objectID": "de/projects.html",
+    "href": "de/projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Welcome to my project portfolio! You can search through them or click the categories on the side.\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nProject Beta\n\n\n\nMachine Learning\n\nAnsys\n\n\n\nA short description of my first project that will appear on the listing page.\n\n\n\n\n\n\nAug 23, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nProject Alpha\n\n\n\nMachine Learning\n\nWeb Dev\n\n\n\nA short description of my first project that will appear on the listing page.\n\n\n\n\n\n\nAug 7, 2026\n\n\n\n\n\n\nNo matching items"
+    "text": "Welcome to my project portfolio! You can search through them or click the categories on the side.\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nProject Beta\n\n\n\nMachine Learning\n\nAnsys\n\n\n\nA short description of my first project that will appear on the listing page.\n\n\n\n\n\n\n23.08.2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nProject Alpha\n\n\n\nMachine Learning\n\nWeb Dev\n\n\n\nA short description of my first project that will appear on the listing page.\n\n\n\n\n\n\n07.08.2026\n\n\n\n\n\n\nKeine Treffer"
   }
 ]
