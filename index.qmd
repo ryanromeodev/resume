@@ -1,5 +1,5 @@
 ---
-title: "Ryan Romeo | Data Scientist"
+pagetitle: "Ryan Romeo"
 format:
   html:
     theme: cosmo

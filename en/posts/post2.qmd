@@ -1,0 +1,13 @@
+---
+title: "Project Beta"
+description: "A short description of my first project that will appear on the listing page."
+image: "../photo.jpg"
+date: "2026-08-23"
+categories: [Machine Learning, Ansys]
+---
+
+Hi it's post 2. Below is the detailed view of my project:
+
+<img src="../photo.jpg" alt="Ryan Romeo" />
+
+Here I can write a long, detailed explanation of the project, include code blocks, and show more results!

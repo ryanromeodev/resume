@@ -1,5 +1,6 @@
 ---
 title: "Resume"
+lang: de
 format:
   html:
     theme: cosmo
@@ -11,6 +12,40 @@ format:
 ---
 ::: {.resume-container}
 ::: {.rows}
+
+## <i class="fas fa-globe"></i> Languages {.section-title}
+
+- English (Native)
+- Deutsch (Professional working proficiency)
+
+
+## <i class="fas fa-graduation-cap"></i> Education {.section-title}
+
+::: {.edu-item}
+**MSc. Electronics Engineering**  
+*City-University of Applied Sciences Bremen*  
+<span class="item-date">2023 – 2026</span>  
+
+**Specialization**: Intelligent Sensors and Instrumentation
+
+- Modelling and documentation of 3 - phase measurement system using LabVIEW and Arduino Mega 2560.
+- Verification of the output Characteristics of Transistor (BC547B) using LabVIEW
+- Projects were done and documented to find the concentration of sugar in a sample sugar solution and used python libraries like numpy, matploitlib, scipy_curvefit to validate the results.
+- Certified with a Udemy course on Microcontroller Embedded C Programming and documented a seminar done on the topic of the use case of python in Instrumentation and measurement systems.
+- Currently working on Flutter application of a sudoku solver from scratch.
+:::
+
+::: {.edu-item}
+**Batchelor of Technology**  
+*A P J ABDUL KALAM TECHNOLOGICAL UNIVERSITY*  
+<span class="item-date">2017 – 2021</span>  
+Electrical and Electronics Engineering
+
+- Created a plant maintenance application using Java and later migrated the application to Flutter.
+- Attended certification courses on programming in java, sensors and actuators from Indian Institute of Technology
+- Designed a prototype to control the on-load tap changing for HVDC ' converter transformer.
+:::
+
 ## <i class="fas fa-cogs"></i> Skills {.section-title}
 
 ::: {.skill-category}
@@ -66,53 +101,34 @@ format:
 </div>
 :::
 
-## <i class="fas fa-graduation-cap"></i> Education {.section-title}
-
-::: {.edu-item}
-**M.S. in Data Science**  
-*University of Techville*  
-<span class="item-date">2018 – 2020</span>  
-Thesis: Deep Learning for Time Series Forecasting
-:::
-
-::: {.edu-item}
-**B.S. in Statistics**  
-*State University*  
-<span class="item-date">2014 – 2018</span>  
-Minor in Computer Science
-:::
-
-## <i class="fas fa-globe"></i> Languages {.section-title}
-
-- English (Native)
-- Spanish (Professional working proficiency)
-
 :::
 
 ::: {.col-md-8}
 
 ## <i class="fas fa-briefcase"></i> Work Experience {.section-title}
 
+
 ::: {.experience-item}
 <div class="item-header">
-  <div><span class="item-title">Data Scientist</span> <span class="item-company">| TechCorp</span></div>
-  <span class="item-date">Jan 2022 – Present</span>
+  <div><span class="item-title">Assistant Systems Engineer</span> <span class="item-company">| TATA CONSULTANCY SERVICES Ltd.</span></div>
+  <span class="item-date">July 2021 – July 2023</span>
 </div>
-- Developed customer lifetime value models, increasing marketing ROI by 20%.
-- Built and deployed an end-to-end recommendation engine on AWS, serving 2M+ users.
-- Led a team of 3 junior analysts; introduced MLOps practices that reduced model deployment time by 40%.
+I worked as Assistant Systems Engineer for The Home Depot.
+
+- My job and responsibilities were to develop, migrate test and deploy applications which benefited the internal and external retail domain of The Home Depot in scrum methodology
+- Co-ordinated formal review meetings with rangers and on-site managers to discuss the deliverables and timelines along with in depth documentation of the application to ensure smooth workflow and data transfer.
 :::
 
 ::: {.experience-item}
 <div class="item-header">
-  <div><span class="item-title">Junior Data Analyst</span> <span class="item-company">| DataWorks</span></div>
-  <span class="item-date">Jun 2020 – Dec 2021</span>
+  <div><span class="item-title">Assistant Systems Engineer</span> <span class="item-company">| TATA CONSULTANCY SERVICES Ltd.</span></div>
+  <span class="item-date">July 2021 – July 2023</span>
 </div>
-- Automated weekly sales reports with Python and Tableau, saving 10+ hours per week.
-- Conducted A/B test analysis for product features, providing insights that guided a 15% lift in conversion.
-- Collaborated with the engineering team to design and maintain data pipelines using SQL and Airflow.
-:::
+I worked as Assistant Systems Engineer for The Home Depot.
 
+- My job and responsibilities were to develop, migrate test and deploy applications which benefited the internal and external retail domain of The Home Depot in scrum methodology
+- Co-ordinated formal review meetings with rangers and on-site managers to discuss the deliverables and timelines along with in depth documentation of the application to ensure smooth workflow and data transfer.
+:::
 
 ## <i class="fas fa-laptop-code"></i> Projects {.section-title}
 
@@ -141,5 +157,6 @@ Minor in Computer Science
 </div>
 - Fine-tuned a BERT model to classify tweets as positive/negative/neutral (F1-score 0.86).
 - Deployed the model as a REST API using FastAPI and Docker.
+:::
 :::
 :::

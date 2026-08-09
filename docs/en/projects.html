@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>resume – Ryan Romeo</title>
+<title>Projects – Ryan Romeo</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -29,23 +29,26 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-172ba59bd5e0b52282274ba0c0cc16fc.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../images/favicon.ico" rel="icon">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-172ba59bd5e0b52282274ba0c0cc16fc.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -73,11 +76,67 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
 
-<link rel="stylesheet" href="styles.css">
+    const options = {
+      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../styles.css">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -87,7 +146,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Ryan Romeo</span>
     </a>
   </div>
@@ -96,22 +155,29 @@ ul.task-list li input[type="checkbox"] {
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
-<span class="menu-text">Home</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../en/about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./projects.html"> 
+    <a class="nav-link active" href="../en/projects.html" aria-current="page"> 
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./resume.html" aria-current="page"> 
-<span class="menu-text">resume</span></a>
+    <a class="nav-link" href="../en/resume.html"> 
+<span class="menu-text">Resume</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/ryanromeo"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../de/index.html"> 
+<span class="menu-text">Deutsch</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -121,23 +187,23 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    </div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="QW5zeXM=">Ansys <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TWFjaGluZSUyMExlYXJuaW5n">Machine Learning <span class="quarto-category-count">(2)</span></div><div class="category" data-category="V2ViJTIwRGV2">Web Dev <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">resume</h1>
+<h1 class="title">Projects</h1>
 </div>
 
 
 
-<div class="quarto-title-meta column-page">
+<div class="quarto-title-meta">
 
     
   
@@ -149,139 +215,84 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="resume-container">
-<div class="rows">
-<section id="skills" class="level2 section-title">
-<h2 class="section-title anchored" data-anchor-id="skills"><i class="fas fa-cogs"></i> Skills</h2>
-<div class="skill-category">
-<strong>Programming</strong>
-<div class="skill-tags">
-<p><span class="skill-tag">Python</span> <span class="skill-tag">R</span> <span class="skill-tag">SQL</span> <span class="skill-tag">Bash</span></p>
-</div>
-</div>
-<div class="skill-category">
-<strong>Data Science</strong>
-<div class="skill-tags">
-<p><span class="skill-tag">Pandas</span> <span class="skill-tag">Scikit-learn</span> <span class="skill-tag">TensorFlow</span> <span class="skill-tag">XGBoost</span> <span class="skill-tag">NLP</span></p>
-</div>
-</div>
-<div class="skill-category">
-<strong>Visualization</strong>
-<div class="skill-tags">
-<p><span class="skill-tag">Matplotlib</span> <span class="skill-tag">Seaborn</span> <span class="skill-tag">Plotly</span> <span class="skill-tag">Tableau</span> <span class="skill-tag">Power BI</span></p>
-</div>
-</div>
-<div class="skill-category">
-<strong>Tools &amp; Platforms</strong>
-<div class="skill-tags">
-<p><span class="skill-tag">Git</span> <span class="skill-tag">Docker</span> <span class="skill-tag">AWS (S3, EC2)</span> <span class="skill-tag">Jupyter</span> <span class="skill-tag">VS Code</span></p>
-</div>
-</div>
-<div class="skill-category">
-<strong>Soft Skills</strong>
-<div class="skill-tags">
-<p><span class="skill-tag">Problem-solving</span> <span class="skill-tag">Communication</span> <span class="skill-tag">Team Leadership</span> <span class="skill-tag">Agile/Scrum</span></p>
-</div>
-</div>
-</section>
-<section id="education" class="level2 section-title">
-<h2 class="section-title anchored" data-anchor-id="education"><i class="fas fa-graduation-cap"></i> Education</h2>
-<div class="edu-item">
-<p><strong>M.S. in Data Science</strong><br>
-<em>University of Techville</em><br>
-<span class="item-date">2018 – 2020</span><br>
-Thesis: Deep Learning for Time Series Forecasting</p>
-</div>
-<div class="edu-item">
-<p><strong>B.S. in Statistics</strong><br>
-<em>State University</em><br>
-<span class="item-date">2014 – 2018</span><br>
-Minor in Computer Science</p>
-</div>
-</section>
-<section id="languages" class="level2 section-title">
-<h2 class="section-title anchored" data-anchor-id="languages"><i class="fas fa-globe"></i> Languages</h2>
-<ul>
-<li>English (Native)</li>
-<li>Spanish (Professional working proficiency)</li>
-</ul>
-</section>
-</div>
-<div class="col-md-8">
-<section id="work-experience" class="level2 section-title">
-<h2 class="section-title anchored" data-anchor-id="work-experience"><i class="fas fa-briefcase"></i> Work Experience</h2>
-<div class="experience-item">
-<div class="item-header">
-<div>
-<span class="item-title">Data Scientist</span> <span class="item-company">| TechCorp</span>
-</div>
-<p><span class="item-date">Jan 2022 – Present</span></p>
-</div>
-<ul>
-<li>Developed customer lifetime value models, increasing marketing ROI by 20%.</li>
-<li>Built and deployed an end-to-end recommendation engine on AWS, serving 2M+ users.</li>
-<li>Led a team of 3 junior analysts; introduced MLOps practices that reduced model deployment time by 40%.</li>
-</ul>
-</div>
-<div class="experience-item">
-<div class="item-header">
-<div>
-<span class="item-title">Junior Data Analyst</span> <span class="item-company">| DataWorks</span>
-</div>
-<p><span class="item-date">Jun 2020 – Dec 2021</span></p>
-</div>
-<ul>
-<li>Automated weekly sales reports with Python and Tableau, saving 10+ hours per week.</li>
-<li>Conducted A/B test analysis for product features, providing insights that guided a 15% lift in conversion.</li>
-<li>Collaborated with the engineering team to design and maintain data pipelines using SQL and Airflow.</li>
-</ul>
-</div>
-</section>
-<section id="projects" class="level2 section-title">
-<h2 class="section-title anchored" data-anchor-id="projects"><i class="fas fa-laptop-code"></i> Projects</h2>
-<div class="project-item">
-<div class="item-header">
-<div>
-<span class="item-title">Customer Churn Prediction</span>
-</div>
-<p><span class="item-date">Personal Project</span></p>
-</div>
-<ul>
-<li>Built a classification model (XGBoost) achieving 0.89 AUC on a telecom dataset.</li>
-<li>Interpreted key drivers using SHAP values and created an interactive Streamlit dashboard for business users.</li>
-</ul>
-</div>
-<div class="project-item">
-<div class="item-header">
-<div>
-<span class="item-title">Real-time Sales Dashboard</span>
-</div>
-<p><span class="item-date">Freelance</span></p>
-</div>
-<ul>
-<li>Designed a Power BI dashboard connected to a PostgreSQL database for a retail client.</li>
-<li>Implemented incremental refresh, reducing data load time by 70%.</li>
-</ul>
-</div>
-<div class="project-item">
-<div class="item-header">
-<div>
-<span class="item-title">Sentiment Analysis on Social Media</span>
-</div>
-<p><span class="item-date">Academic</span></p>
-</div>
-<ul>
-<li>Fine-tuned a BERT model to classify tweets as positive/negative/neutral (F1-score 0.86).</li>
-<li>Deployed the model as a REST API using FastAPI and Docker.</li>
-</ul>
-</div>
-</section>
-</div>
+<p>Welcome to my project portfolio! You can search through them or click the categories on the side.</p>
 
 
-</div>
 
-</main> <!-- /main -->
+
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="listing-actions-group">
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="TWFjaGluZSUyMExlYXJuaW5nJTJDQW5zeXM=" data-listing-date-sort="1787436000000" data-listing-file-modified-sort="1786300543233" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="33">
+<a href="../en/posts/post2.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../en/photo.jpg" class="thumbnail-image card-img" style="height: 15rem;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Project Beta
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('TWFjaGluZSUyMExlYXJuaW5n'); return false;">Machine Learning</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('QW5zeXM='); return false;">Ansys</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>A short description of my first project that will appear on the listing page.</p>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Aug 23, 2026
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="TWFjaGluZSUyMExlYXJuaW5nJTJDV2ViJTIwRGV2" data-listing-date-sort="1786053600000" data-listing-file-modified-sort="1786130954712" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="33">
+<a href="../en/posts/post1.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../en/photo.jpg" class="thumbnail-image card-img" style="height: 15rem;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Project Alpha
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('TWFjaGluZSUyMExlYXJuaW5n'); return false;">Machine Learning</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('V2ViJTIwRGV2'); return false;">Web Dev</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>A short description of my first project that will appear on the listing page.</p>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Aug 7, 2026
+</div>
+</div>
+</div>
+</div></a>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

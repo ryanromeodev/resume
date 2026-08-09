@@ -1,0 +1,21 @@
+lang: en-US
+
+project:
+  render:
+    - index.qmd
+    - "en/"
+
+website:
+  navbar:
+    left:
+      - text: "About"
+        file: en/about.qmd
+      - text: "Projects"
+        file: en/projects.qmd
+      - text: "Resume"
+        file: en/resume.qmd
+    right:
+      - icon: github
+        href: https://github.com/ryanromeo
+      - text: "Deutsch"
+        href: /de/index.html

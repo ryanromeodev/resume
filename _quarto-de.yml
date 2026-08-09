@@ -1,0 +1,20 @@
+lang: de-DE
+
+project:
+  render:
+    - "de/"
+
+website:
+  navbar:
+    left:
+      - text: "Über mich"
+        file: de/about.qmd
+      - text: "Projekte"
+        file: de/projects.qmd
+      - text: "Lebenslauf"
+        file: de/resume.qmd
+    right:
+      - icon: github
+        href: https://github.com/ryanromeo
+      - text: "English"
+        href: /index.html

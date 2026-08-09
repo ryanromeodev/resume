@@ -1,0 +1,14 @@
+---
+title: "Projects"
+listing:
+  contents: posts
+  sort: "title desc"
+  type: grid
+  categories: true      # Creates a clickable sidebar of tags
+  sort-ui: false       # Hides the sort dropdown for a cleaner look
+  filter-ui:  [title,]       # Adds a nice search bar for your projects
+  page-size: 9          # Number of cards per page
+  image-height: "15rem" # Keeps images uniform in size
+---
+
+Welcome to my project portfolio! You can search through them or click the categories on the side.
