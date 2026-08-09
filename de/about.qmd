@@ -1,5 +1,5 @@
 ---
-title: "About Me"
+title: "Über mich"
 format:
   html:
     theme: cosmo

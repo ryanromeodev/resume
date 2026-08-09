@@ -1,5 +1,5 @@
 ---
-title: "Projects"
+title: "Projekte"
 listing:
   contents: posts
   sort: "title desc"

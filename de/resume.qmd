@@ -1,5 +1,5 @@
 ---
-title: "Resume"
+title: "Lebenslauf"
 format:
   html:
     theme: cosmo
