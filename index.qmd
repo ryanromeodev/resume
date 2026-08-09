@@ -18,13 +18,13 @@ format:
 
 ::: {.resume-header}
 # Ryan Romeo
-### Data Scientist core
+### Elektronikingenieur
 
 <div class="contact">
-  <a href="mailto:ryan.romeo@email.com"><i class="fas fa-envelope"></i> ryan.romeo@email.com</a>
-  <span><i class="fas fa-phone"></i> (123) 456-7890</span>
-  <a href="https://linkedin.com/in/ryanromeo"><i class="fab fa-linkedin"></i> linkedin.com/in/ryanromeo</a>
-  <a href="https://github.com/ryanromeo"><i class="fab fa-github"></i> github.com/ryanromeo</a>
+  <a href="mailto:ryanromeode@gmail.com"><i class="fas fa-envelope"></i> ryanromeode@gmail.com</a>
+  <span><i class="fas fa-phone"></i>(+49) 15212 6696 75</span>
+  <a href="https://de.linkedin.com/in/ryan-romeo-aa880821a"><i class="fab fa-linkedin"></i> linkedin.com/ryanromeo</a>
+  <a href="https://github.com/ryanromeodev"><i class="fab fa-github"></i> github.com/ryanromeodev</a>
 </div>
 :::
 

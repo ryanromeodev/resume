@@ -16,19 +16,14 @@ format:
 :::-->
 
 ::: {style="max-width: 800px; margin: 1rem auto; padding: 0 1rem;"}
-I am currently pursuing an M.Sc. in Electronics, specializing in Intelligent Sensors and Instrumentation at Hochschule Bremen, following my completion of a B.Tech in Electrical and Electronics Engineering. I am fluent in English and can converse comfortably in German.
+Nach meinem Abschluss als Bachelor of Technology (B.Tech) in Elektrotechnik und Elektronik absolviere ich derzeit an der Hochschule Bremen ein Masterstudium (M.Sc.) im Bereich Elektronik mit dem Schwerpunkt „Intelligente Sensorik und Messtechnik“. Ich spreche fließend Englisch und kann mich problemlos auf Deutsch verständigen.
 
+Beruflich war ich zuvor als Assistant Systems Engineer bei Tata Consultancy Services Ltd. tätig, wo ich im Einzelhandelssektor zum Entwicklungsteam für den Kunden „The Home Depot“ gehörte. Zu meinen Aufgaben gehörten die Entwicklung, Migration und Bereitstellung von Webanwendungen. Dabei legte ich großen Wert auf gut getesteten, wartungsfreundlichen Code, eine klare Dokumentation sowie eine enge Zusammenarbeit mit Kunden in agilen Umgebungen (Scrum). Ich verfüge über fundierte Kenntnisse in C++, Java, Python und Dart.
 
-Professionally, I previously worked as an Assistant Systems Engineer at Tata Consultancy Services Ltd., where I was part of the development team for The Home Depot in the retail domain. My responsibilities included web application development, migration, and deployment, with a strong focus on writing well-tested, maintainable code, producing clear documentation, and working closely with clients in Agile/Scrum environments. I am proficient in C++, Java, Python, and Dart.
+Ich erweitere meine Fähigkeiten kontinuierlich durch eigene Projekte, wie etwa eine App zur Pflanzenpflege, die ich mit Flutter und Dart entwickelt habe. Sie bietet Funktionen wie zeitbasierte Erinnerungen zum Düngen, lokale Datenspeicherung (JSON), Optionen für Dark- und Light-Modus, Mehrsprachigkeit sowie eine Benachrichtigungssteuerung. Zudem nutze ich Jupyter Notebooks und NumPy für die Datenvisualisierung und -analyse, insbesondere im Kontext von Elektronik- und Sensordaten.
 
+Um meine praktischen Elektronikkenntnisse zu vertiefen, habe ich ein Biquad-Filter zur Isolierung spezifischer Frequenzen entworfen und gelötet. Dieses Projekt ermöglichte es mir, meine praktischen Fertigkeiten in der Arbeit mit KiCAD (für Schaltplan- und Leiterplattenentwurf) sowie beim SMD-Löten aufzufrischen.
 
-I actively develop my skills through personal projects, such as a Plant Care App built with Flutter/Dart. It features timeline-based fertilizing reminders, local JSON-based storage, dark/light theme options, multilingual support, and notification scheduling. I also use Jupyter notebooks and NumPy for data visualization and analysis, particularly for applications in electronics and sensor data.
-
-
-To further my practical electronics knowledge, I designed and soldered a Biquad Filter to isolate specific frequencies—a project that refreshed my hands-on skills with KiCAD for schematic/PCB design and SMD soldering techniques.
-
-
-Beyond my technical pursuits, I enjoy gaming (Minecraft and Skyrim) and reading literature, from classics like 1984 and Crime and Punishment to modern novels like Kafka on the Shore.
--->
+Neben meinen technischen Interessen begeistere ich mich für Videospiele (Minecraft und Skyrim) und Literatur – von Klassikern wie „1984“ und „Schuld und Sühne“ bis hin zu modernen Romanen wie „Kafka am Strand“.
 :::
 :::

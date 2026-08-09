@@ -1,6 +1,5 @@
 ---
 title: "Resume"
-lang: de
 format:
   html:
     theme: cosmo
@@ -13,37 +12,37 @@ format:
 ::: {.resume-container}
 ::: {.rows}
 
-## <i class="fas fa-globe"></i> Languages {.section-title}
+## <i class="fas fa-globe"></i> Sprachen {.section-title}
 
 - English (Native)
-- Deutsch (Professional working proficiency)
+- Deutsch (Professionelle Arbeitskenntnisse)
 
 
-## <i class="fas fa-graduation-cap"></i> Education {.section-title}
+## <i class="fas fa-graduation-cap"></i> Bildung {.section-title}
 
 ::: {.edu-item}
 **MSc. Electronics Engineering**  
 *City-University of Applied Sciences Bremen*  
 <span class="item-date">2023 – 2026</span>  
 
-**Specialization**: Intelligent Sensors and Instrumentation
+**Spezialisierung**: Intelligent Sensors and Instrumentation
 
-- Modelling and documentation of 3 - phase measurement system using LabVIEW and Arduino Mega 2560.
-- Verification of the output Characteristics of Transistor (BC547B) using LabVIEW
-- Projects were done and documented to find the concentration of sugar in a sample sugar solution and used python libraries like numpy, matploitlib, scipy_curvefit to validate the results.
-- Certified with a Udemy course on Microcontroller Embedded C Programming and documented a seminar done on the topic of the use case of python in Instrumentation and measurement systems.
-- Currently working on Flutter application of a sudoku solver from scratch.
+- Modellierung und Dokumentation eines 3-Phasen-Messsystems mit LabVIEW und Arduino Mega 2560.
+- Überprüfung der Ausgangseigenschaften des Transistors (BC547B) mit LabVIEW
+- Es wurden Projekte durchgeführt und dokumentiert, um die Zuckerkonzentration in einer Zuckerlösung zu ermitteln. Zur Validierung der Ergebnisse wurden Python-Bibliotheken wie Numpy, Matploitlib und Scipy_curvefit verwendet.
+- Zertifiziert durch einen Udemy-Kurs zur Mikrocontroller-Embedded-C-Programmierung und Dokumentation eines durchgeführten Seminars zum Thema des Anwendungsfalls von Python in Instrumentierungs- und Messsystemen.
+- Derzeit arbeite ich von Grund auf an der Flutter-Anwendung eines Sudoku-Lösers.
 :::
 
 ::: {.edu-item}
 **Batchelor of Technology**  
 *A P J ABDUL KALAM TECHNOLOGICAL UNIVERSITY*  
 <span class="item-date">2017 – 2021</span>  
-Electrical and Electronics Engineering
+Elektrotechnik und Elektronik
 
-- Created a plant maintenance application using Java and later migrated the application to Flutter.
-- Attended certification courses on programming in java, sensors and actuators from Indian Institute of Technology
-- Designed a prototype to control the on-load tap changing for HVDC ' converter transformer.
+- Entwicklung einer Anwendung zur Anlagenwartung mit Java und anschließende Migration der Anwendung auf Flutter.
+- Teilnahme an Zertifizierungskursen des Indian Institute of Technology zu den Themen Java-Programmierung sowie Sensoren und Aktoren.
+- Entwurf eines Prototyps zur Steuerung der Laststufenschaltung eines Konvertertransformators für die Hochspannungs-Gleichstrom-Übertragung (HGÜ).
 :::
 
 ## <i class="fas fa-cogs"></i> Skills {.section-title}
@@ -58,54 +57,11 @@ Electrical and Electronics Engineering
 </div>
 :::
 
-::: {.skill-category}
-**Data Science**
-<div class="skill-tags">
-  <span class="skill-tag">Pandas</span>
-  <span class="skill-tag">Scikit-learn</span>
-  <span class="skill-tag">TensorFlow</span>
-  <span class="skill-tag">XGBoost</span>
-  <span class="skill-tag">NLP</span>
-</div>
-:::
-
-::: {.skill-category}
-**Visualization**
-<div class="skill-tags">
-  <span class="skill-tag">Matplotlib</span>
-  <span class="skill-tag">Seaborn</span>
-  <span class="skill-tag">Plotly</span>
-  <span class="skill-tag">Tableau</span>
-  <span class="skill-tag">Power BI</span>
-</div>
-:::
-
-::: {.skill-category}
-**Tools & Platforms**
-<div class="skill-tags">
-  <span class="skill-tag">Git</span>
-  <span class="skill-tag">Docker</span>
-  <span class="skill-tag">AWS (S3, EC2)</span>
-  <span class="skill-tag">Jupyter</span>
-  <span class="skill-tag">VS Code</span>
-</div>
-:::
-
-::: {.skill-category}
-**Soft Skills**
-<div class="skill-tags">
-  <span class="skill-tag">Problem-solving</span>
-  <span class="skill-tag">Communication</span>
-  <span class="skill-tag">Team Leadership</span>
-  <span class="skill-tag">Agile/Scrum</span>
-</div>
-:::
-
 :::
 
 ::: {.col-md-8}
 
-## <i class="fas fa-briefcase"></i> Work Experience {.section-title}
+## <i class="fas fa-briefcase"></i> Berufserfahrung {.section-title}
 
 
 ::: {.experience-item}
@@ -113,10 +69,10 @@ Electrical and Electronics Engineering
   <div><span class="item-title">Assistant Systems Engineer</span> <span class="item-company">| TATA CONSULTANCY SERVICES Ltd.</span></div>
   <span class="item-date">July 2021 – July 2023</span>
 </div>
-I worked as Assistant Systems Engineer for The Home Depot.
+Ich habe als Assistant Systems Engineer für The Home Depot gearbeitet.
 
-- My job and responsibilities were to develop, migrate test and deploy applications which benefited the internal and external retail domain of The Home Depot in scrum methodology
-- Co-ordinated formal review meetings with rangers and on-site managers to discuss the deliverables and timelines along with in depth documentation of the application to ensure smooth workflow and data transfer.
+- Zu meinen Aufgaben und Verantwortlichkeiten gehörte die Entwicklung, Migration, das Testen und die Bereitstellung von Anwendungen für den internen und externen Einzelhandelsbereich von The Home Depot unter Anwendung der Scrum-Methodik.
+- Ich koordinierte formelle Review-Meetings mit den zuständigen Verantwortlichen und Managern vor Ort, um Arbeitsergebnisse und Zeitpläne zu besprechen; zudem erstellte ich eine detaillierte Dokumentation der Anwendungen, um reibungslose Arbeitsabläufe und einen störungsfreien Datentransfer zu gewährleisten.
 :::
 
 ::: {.experience-item}
@@ -130,7 +86,7 @@ I worked as Assistant Systems Engineer for The Home Depot.
 - Co-ordinated formal review meetings with rangers and on-site managers to discuss the deliverables and timelines along with in depth documentation of the application to ensure smooth workflow and data transfer.
 :::
 
-## <i class="fas fa-laptop-code"></i> Projects {.section-title}
+## <i class="fas fa-laptop-code"></i> Projekte {.section-title}
 
 ::: {.project-item}
 <div class="item-header">

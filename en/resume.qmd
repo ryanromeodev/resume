@@ -1,6 +1,5 @@
 ---
 title: "Resume"
-lang: de
 format:
   html:
     theme: cosmo
