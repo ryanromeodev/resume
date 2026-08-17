@@ -186,8 +186,8 @@ ul li {
 
 .profile-photo {
   flex: 0 0 auto;               /* don't grow or shrink */
-  width: 200px;                 /* fixed width */
-  height: 200px;                /* same as width → perfect square */
+  width: 300px;                 /* fixed width */
+  height: 300px;                /* same as width → perfect square */
   margin-left: auto;
   border-radius: 20px;          /* rounds all corners */
   border: 6px solid var(--card-bg);
@@ -214,13 +214,14 @@ ul li {
   .resume-container {
     flex-direction: column;
     align-items: center;
-    padding: 2rem 1.5rem;
+    padding: 1.5rem 1.5rem;
     margin: 1rem;
     width: calc(100% - 2rem);    /* maintain small side gap */
   }
 
   .profile-photo {
-    max-width: 200px;
+    max-width: 300px;
+    max-height: 300px;
     margin-left: 0;
     margin-bottom: 1.5rem;
     order: -1;                   /* show photo above the header */

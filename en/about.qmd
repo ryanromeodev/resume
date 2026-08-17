@@ -4,7 +4,7 @@ format:
   html:
     theme: cosmo
     page-layout: full
-    css: styles.css
+    css: ../styles.css
     include-in-header:
       - text: |
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -12,7 +12,7 @@ format:
 
 <!--::: {.resume-container}-->
 <!-- ::: {.profile-photo style="max-width: 300px;"}
-<img src="./photo.jpg" alt="Ryan Romeo">
+<img src="../../images/photo.jpeg" alt="Ryan Romeo">
 :::-->
 
 ::: {style="max-width: 1200px; margin: 1rem auto; padding: 0 2rem;"}
@@ -29,5 +29,7 @@ To further my practical electronics knowledge, I designed and soldered a Biquad 
 
 
 Beyond my technical pursuits, I enjoy gaming (Minecraft and Skyrim) and reading literature, from classics like 1984 and Crime and Punishment to modern novels like Kafka on the Shore.
+
+you can download my complete resume from [here](../attachments/Lebenslauf.pdf)
 :::
 <!--:::-->

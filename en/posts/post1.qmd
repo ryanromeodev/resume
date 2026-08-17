@@ -1,13 +1,40 @@
 ---
-title: "Project Alpha"
-description: "A short description of my first project that will appear on the listing page."
-image: "../photo.jpg"
+title: "Universal Biquad Filter Design"
+description: "Design and Implementation of Universal Biquad Filter"
+image: "../../images/projectimages/2dFrontPCB.png"
 date: "2026-08-07"
-categories: [Machine Learning, Web Dev]
+categories: [Soldering, PCB Design, Python, MatplotLib]
 ---
 
 Hi it's post 1. Below is the detailed view of my project:
 
-<img src="../photo.jpg" alt="Ryan Romeo" />
+# PCB 2D layout
 
-Here I can write a long, detailed explanation of the project, include code blocks, and show more results!
+This is the 2D Ki-CAD Layout for the PCB Design
+
+<img 
+  src="../../images/projectimages/2dFrontPCB.png" 
+  alt="2D PCB Board design Front" 
+  width="800" 
+  height="300" 
+/>
+
+<img 
+  src="../../images/projectimages/2dBackPCB.png" 
+  alt="2D PCB Board design Back" 
+  width="800" 
+  height="300" 
+/>
+
+# Final Board Design
+
+This is the final board PCB Design
+
+<img 
+  src="../../images/projectimages/finalBoard.jpg" 
+  alt="PCB Board design" 
+  width="800" 
+  height="300" 
+/>
+
+You can get more info about the project [here](https://ryanromeodev.github.io/hsb-amcd-sose2025-5/#pcb-design-using-kicad)

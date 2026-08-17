@@ -1,14 +1,15 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="de-DE" xml:lang="de-DE"><head>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Design and Implementation of Universal Biquad Filter">
+<meta name="dcterms.date" content="2026-08-23">
+<meta name="description" content="Verification of the output Characteristics of Transistor (BC547B) using LabVIEW and familiarization with LabVIEW software For more details click here">
 
-<title>Universal Biquad Filter Design – Ryan Romeo</title>
+<title>PROTOTYPE OF 3 - PHASE MEASUREMENT SYSTEM – Ryan Romeo</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -62,17 +63,17 @@ ul.task-list li input[type="checkbox"] {
   ],
   "show-item-context": false,
   "language": {
-    "search-no-results-text": "Keine Treffer",
-    "search-matching-documents-text": "Treffer",
-    "search-copy-link-title": "Link in die Suche kopieren",
-    "search-hide-matches-text": "Zusätzliche Treffer verbergen",
-    "search-more-match-text": "weitere Treffer in diesem Dokument",
-    "search-more-matches-text": "weitere Treffer in diesem Dokument",
-    "search-clear-button-title": "Zurücksetzen",
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
     "search-text-placeholder": "",
-    "search-detached-cancel-button-title": "Abbrechen",
-    "search-submit-button-title": "Abschicken",
-    "search-label": "Suchen"
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 
@@ -91,29 +92,29 @@ ul.task-list li input[type="checkbox"] {
     <span class="navbar-title">Ryan Romeo</span>
     </a>
   </div>
-            <div id="quarto-search" class="" title="Suchen"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Navigation umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../de/about.html"> 
-<span class="menu-text">Über mich</span></a>
+    <a class="nav-link" href="../../en/about.html"> 
+<span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../de/resume.html"> 
-<span class="menu-text">Lebenslauf</span></a>
+    <a class="nav-link" href="../../en/resume.html"> 
+<span class="menu-text">Resume</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../de/projects.html"> 
-<span class="menu-text">Projekte</span></a>
+    <a class="nav-link" href="../../en/projects.html"> 
+<span class="menu-text">Projects</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../en/index.html"> 
-<span class="menu-text">English</span></a>
+    <a class="nav-link" href="../../de/index.html"> 
+<span class="menu-text">Deutsch</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -126,33 +127,24 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Auf dieser Seite</h2>
-   
-  <ul>
-  <li><a href="#pcb-2d-layout" id="toc-pcb-2d-layout" class="nav-link active" data-scroll-target="#pcb-2d-layout">PCB 2D layout</a></li>
-  <li><a href="#final-board-design" id="toc-final-board-design" class="nav-link" data-scroll-target="#final-board-design">Final Board Design</a></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Universal Biquad Filter Design</h1>
+<h1 class="title">PROTOTYPE OF 3 - PHASE MEASUREMENT SYSTEM</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">Soldering</div>
-    <div class="quarto-category">PCB Design</div>
-    <div class="quarto-category">Python</div>
-    <div class="quarto-category">MatplotLib</div>
+    <div class="quarto-category">Machine Learning</div>
+    <div class="quarto-category">Ansys</div>
   </div>
   </div>
 
 <div>
   <div class="description">
-    Design and Implementation of Universal Biquad Filter
+    Verification of the output Characteristics of Transistor (BC547B) using LabVIEW and familiarization with LabVIEW software For more details click here
   </div>
 </div>
 
@@ -161,9 +153,9 @@ ul.task-list li input[type="checkbox"] {
 
     
     <div>
-    <div class="quarto-title-meta-heading">Veröffentlichungsdatum</div>
+    <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">7. August 2026</p>
+      <p class="date">August 23, 2026</p>
     </div>
   </div>
   
@@ -175,21 +167,11 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Hi it’s post 1. Below is the detailed view of my project:</p>
-<section id="pcb-2d-layout" class="level1">
-<h1>PCB 2D layout</h1>
-<p>This is the 2D Ki-CAD Layout for the PCB Design</p>
-<p><img src="../../images/projectimages/2dFrontPCB.png" alt="2D PCB Board design Front" width="800" height="300"></p>
-<p><img src="../../images/projectimages/2dBackPCB.png" alt="2D PCB Board design Back" width="800" height="300"></p>
-</section>
-<section id="final-board-design" class="level1">
-<h1>Final Board Design</h1>
-<p>This is the final board PCB Design</p>
-<p><img src="../../images/projectimages/finalBoard.jpg" alt="PCB Board design" width="800" height="300"></p>
-<p>You can get more info about the project <a href="https://ryanromeodev.github.io/hsb-amcd-sose2025-5/#pcb-design-using-kicad">here</a></p>
+<p>Hi it’s post 2. Below is the detailed view of my project:</p>
+<p><img src="../../images/projectimages/Lcode.jpg" alt="PCB Board design" style="width: 100%; max-width: 800px; height: auto;"></p>
+<p>Here I can write a long, detailed explanation of the project, include code blocks, and show more results!</p>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -217,12 +199,12 @@ ul.task-list li input[type="checkbox"] {
       // flash "checked"
       button.classList.add('code-copy-button-checked');
       var currentTitle = button.getAttribute("title");
-      button.setAttribute("title", "Kopiert");
+      button.setAttribute("title", "Copied!");
       let tooltip;
       if (window.bootstrap) {
         button.setAttribute("data-bs-toggle", "tooltip");
         button.setAttribute("data-bs-placement", "left");
-        button.setAttribute("data-bs-title", "Kopiert");
+        button.setAttribute("data-bs-title", "Copied!");
         tooltip = new bootstrap.Tooltip(button, 
           { trigger: "manual", 
             customClass: "code-copy-button-tooltip",

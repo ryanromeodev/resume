@@ -4,7 +4,7 @@ format:
   html:
     theme: cosmo
     page-layout: full
-    css: styles.css
+    css: ../styles.css
     include-in-header:
       - text: |
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -12,38 +12,97 @@ format:
 <!--::: {.resume-container}-->
 ::: {.rows}
 
-## <i class="fas fa-globe"></i> Sprachen {.section-title}
-
-- English (Native)
-- Deutsch (Professionelle Arbeitskenntnisse)
+## <i class="fas fa-briefcase"></i> Work Experience {.section-title}
 
 
-## <i class="fas fa-graduation-cap"></i> Bildung {.section-title}
+::: {.experience-item}
+<div class="item-header">
+  <div><span class="item-title">Research Assistant</span> <span class="item-company">| Fraunhofer IFAM.</span></div>
+  <span class="item-date">July 2021 – July 2023</span>
+</div>
+- Python/C++ - Softwareentwicklung und Workflow-Automatisierung\
+- Erstverarbeitung von Excel-Rohdaten mittels einer objektorientierten Skriptsprache (Python) sowie Automatisierung der Entwicklung
+und des Testens des Workflows unter Verwendung der API PyAEDT [https://docs.pyansys.com](https://docs.pyansys.com) für Ansys-Software.\
+- Verwendung von Python Bibliotheken wie Tkinter, NumPy, Matplotlib, Pandas, SciPy, Jupyter, Math, Fraction, PyAEDT usw.\
+- Dokumentation und Aktualisierung des Steuerungsablaufdiagramms in Conceptboard\
+- Entwicklung einer Python Tkinter GUI Anwendung, die die Bedienung für den Kunden erleichtert
+- Detaillierte Dokumentation des Arbeitsablaufs im GitLab Issue Board.\
+:::
+
+::: {.experience-item}
+<div class="item-header">
+  <div><span class="item-title">Assistant Systems Engineer</span> <span class="item-company">| TATA CONSULTANCY SERVICES Ltd.</span></div>
+  <span class="item-date">July 2021 – July 2023</span>
+</div>
+- Entwicklung, Migration, Test und Deployment von Web-/Cloud-Anwendungen mit Python, C++, Java, GCP und Git\
+- EDV-Kenntnisse mit Erfahrung in MS-Office und Linux\
+:::
+
+## <i class="fas fa-graduation-cap"></i> Education {.section-title}
 
 ::: {.edu-item}
 **MSc. Electronics Engineering**  
-*City-University of Applied Sciences Bremen*  
+*City-University of Applied Sciences Bremen, Germany (HSB)*  
 <span class="item-date">2023 – 2026</span>  
 
-**Spezialisierung**: Intelligent Sensors and Instrumentation
-
-- Modellierung und Dokumentation eines 3-Phasen-Messsystems mit LabVIEW und Arduino Mega 2560.
-- Überprüfung der Ausgangseigenschaften des Transistors (BC547B) mit LabVIEW
-- Es wurden Projekte durchgeführt und dokumentiert, um die Zuckerkonzentration in einer Zuckerlösung zu ermitteln. Zur Validierung der Ergebnisse wurden Python-Bibliotheken wie Numpy, Matploitlib und Scipy_curvefit verwendet.
-- Zertifiziert durch einen Udemy-Kurs zur Mikrocontroller-Embedded-C-Programmierung und Dokumentation eines durchgeführten Seminars zum Thema des Anwendungsfalls von Python in Instrumentierungs- und Messsystemen.
-- Derzeit arbeite ich von Grund auf an der Flutter-Anwendung eines Sudoku-Lösers.
+**Department :** Electrical and Computer Science Department\
+**Course Work :** undamentals of Machine Learning, Sprachmodul Deutsch, Intelligente Sensoren und Instrumentierung\
+**Master Thesis (on going)**: Maschinell unterstützte Co-Optimierung von Motorgeometrie und Hochfrequenz-Schaltparametern des
+Wechselrichters für elektrische UAV-Antriebe
 :::
 
 ::: {.edu-item}
-**Batchelor of Technology**  
-*A P J ABDUL KALAM TECHNOLOGICAL UNIVERSITY*  
+**Batchelor of Technology Electrical and Electronics**  
+*A P J ABDUL KALAM TECHNOLOGICAL UNIVERSITY (KTU)*  
 <span class="item-date">2017 – 2021</span>  
-Elektrotechnik und Elektronik
 
-- Entwicklung einer Anwendung zur Anlagenwartung mit Java und anschließende Migration der Anwendung auf Flutter.
-- Teilnahme an Zertifizierungskursen des Indian Institute of Technology zu den Themen Java-Programmierung sowie Sensoren und Aktoren.
-- Entwurf eines Prototyps zur Steuerung der Laststufenschaltung eines Konvertertransformators für die Hochspannungs-Gleichstrom-Übertragung (HGÜ).
+**Kursarbeiten:** Elektrische Maschinen, Leistungselektronik und Regelungstechnik, Computerprogrammierung, Analyse elektrischer
+Energiesysteme\
+**Projekt:** Laststufenschalter für HVDC-Konvertertransformator\
 :::
+
+
+## <i class="fas fa-globe"></i> Languages {.section-title}
+
+- English (Native)
+- Deutsch (Professional working proficiency)
+
+
+
+:::
+
+::: {.col-md-8}
+
+## <i class="fas fa-laptop-code"></i> Projects {.section-title}
+
+::: {.project-item}
+<div class="item-header">
+  <div><span class="item-title">Plant App: Flutter/Dart Anwendungsentwicklung</span></div>
+  <span class="item-date">Personal Project</span>
+</div>
+- Softwareentwicklung für Android, iOS und Webanwendungen unter Verwendung von Dart/Flutter für responsives Design
+- Die Anwendung wurde dokumentiert und auf einer persönlichen, in Github gehosteten Website
+bereitgestellt [https://ryanromeodev.github.io/Plant-App](https://ryanromeodev.github.io/Plant-App)
+:::
+
+::: {.project-item}
+<div class="item-header">
+  <div><span class="item-title">Persönliche Website: GitHub-Website</span></div>
+  <span class="item-date">Personal Project</span>
+</div>
+Persönliche Website auf GitHub gehostet, um Fähigkeiten zu präsentieren : [https://ryanromeodev.github.io/resume/](https://ryanromeodev.github.io/resume/)
+:::
+
+::: {.project-item}
+<div class="item-header">
+  <div><span class="item-title">Entwurf und Implementierung eines universellen Biquad-Filters</span></div>
+  <span class="item-date">Academic</span>
+</div>
+- Entwurf und Prüfung eines second-order Universal Active (Biquad) Filter
+- Führen Sie Leiterplatten nahtlos vom Schaltplan über Layout, Validierung und Test bis hin zur einsatzbereiten Hardware.
+- Detaillierte Dokumentation bereitgestellt : [https://ryanromeodev.github.io/hsb-amcd-sose2025-5/](https://ryanromeodev.github.io/hsb-amcd-sose2025-5/)
+:::
+
 
 ## <i class="fas fa-cogs"></i> Skills {.section-title}
 
@@ -51,68 +110,54 @@ Elektrotechnik und Elektronik
 **Programming**
 <div class="skill-tags">
   <span class="skill-tag">Python</span>
-  <span class="skill-tag">R</span>
-  <span class="skill-tag">SQL</span>
+  <span class="skill-tag">C++</span>
+  <span class="skill-tag">Flutter</span>
   <span class="skill-tag">Bash</span>
 </div>
 :::
 
-:::
-
-::: {.col-md-8}
-
-## <i class="fas fa-briefcase"></i> Berufserfahrung {.section-title}
-
-
-::: {.experience-item}
-<div class="item-header">
-  <div><span class="item-title">Assistant Systems Engineer</span> <span class="item-company">| TATA CONSULTANCY SERVICES Ltd.</span></div>
-  <span class="item-date">July 2021 – July 2023</span>
+::: {.skill-category}
+**Data Science**
+<div class="skill-tags">
+  <span class="skill-tag">Pandas</span>
+  <span class="skill-tag">Scikit-learn</span>
+  <span class="skill-tag">TensorFlow</span>
+  <span class="skill-tag">XGBoost</span>
+  <span class="skill-tag">NLP</span>
 </div>
-Ich habe als Assistant Systems Engineer für The Home Depot gearbeitet.
-
-- Zu meinen Aufgaben und Verantwortlichkeiten gehörte die Entwicklung, Migration, das Testen und die Bereitstellung von Anwendungen für den internen und externen Einzelhandelsbereich von The Home Depot unter Anwendung der Scrum-Methodik.
-- Ich koordinierte formelle Review-Meetings mit den zuständigen Verantwortlichen und Managern vor Ort, um Arbeitsergebnisse und Zeitpläne zu besprechen; zudem erstellte ich eine detaillierte Dokumentation der Anwendungen, um reibungslose Arbeitsabläufe und einen störungsfreien Datentransfer zu gewährleisten.
 :::
 
-::: {.experience-item}
-<div class="item-header">
-  <div><span class="item-title">Assistant Systems Engineer</span> <span class="item-company">| TATA CONSULTANCY SERVICES Ltd.</span></div>
-  <span class="item-date">July 2021 – July 2023</span>
+::: {.skill-category}
+**Visualization**
+<div class="skill-tags">
+  <span class="skill-tag">Matplotlib</span>
+  <span class="skill-tag">Seaborn</span>
+  <span class="skill-tag">Plotly</span>
+  <span class="skill-tag">Tableau</span>
+  <span class="skill-tag">Power BI</span>
 </div>
-I worked as Assistant Systems Engineer for The Home Depot.
-
-- My job and responsibilities were to develop, migrate test and deploy applications which benefited the internal and external retail domain of The Home Depot in scrum methodology
-- Co-ordinated formal review meetings with rangers and on-site managers to discuss the deliverables and timelines along with in depth documentation of the application to ensure smooth workflow and data transfer.
 :::
 
-## <i class="fas fa-laptop-code"></i> Projekte {.section-title}
-
-::: {.project-item}
-<div class="item-header">
-  <div><span class="item-title">Customer Churn Prediction</span></div>
-  <span class="item-date">Personal Project</span>
+::: {.skill-category}
+**Tools & Platforms**
+<div class="skill-tags">
+  <span class="skill-tag">Git</span>
+  <span class="skill-tag">Docker</span>
+  <span class="skill-tag">AWS (S3, EC2)</span>
+  <span class="skill-tag">Jupyter</span>
+  <span class="skill-tag">VS Code</span>
 </div>
-- Built a classification model (XGBoost) achieving 0.89 AUC on a telecom dataset.
-- Interpreted key drivers using SHAP values and created an interactive Streamlit dashboard for business users.
 :::
 
-::: {.project-item}
-<div class="item-header">
-  <div><span class="item-title">Real-time Sales Dashboard</span></div>
-  <span class="item-date">Freelance</span>
+::: {.skill-category}
+**Soft Skills**
+<div class="skill-tags">
+  <span class="skill-tag">Problem-solving</span>
+  <span class="skill-tag">Communication</span>
+  <span class="skill-tag">Team Leadership</span>
+  <span class="skill-tag">Agile/Scrum</span>
 </div>
-- Designed a Power BI dashboard connected to a PostgreSQL database for a retail client.
-- Implemented incremental refresh, reducing data load time by 70%.
 :::
 
-::: {.project-item}
-<div class="item-header">
-  <div><span class="item-title">Sentiment Analysis on Social Media</span></div>
-  <span class="item-date">Academic</span>
-</div>
-- Fine-tuned a BERT model to classify tweets as positive/negative/neutral (F1-score 0.86).
-- Deployed the model as a REST API using FastAPI and Docker.
-:::
 :::
 <!--:::-->

@@ -4,7 +4,7 @@ format:
   html:
     theme: cosmo
     page-layout: full
-    css: styles.css
+    css: ../styles.css
     include-in-header:
       - text: |
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -12,38 +12,97 @@ format:
 <!--::: {.resume-container}-->
 ::: {.rows}
 
+## <i class="fas fa-briefcase"></i> Work Experience {.section-title}
+
+
+::: {.experience-item}
+<div class="item-header">
+  <div><span class="item-title">Research Assistant</span> <span class="item-company">| Fraunhofer IFAM.</span></div>
+  <span class="item-date">July 2021 – July 2023</span>
+</div>
+- Python/C++ - Softwareentwicklung und Workflow-Automatisierung\
+- Erstverarbeitung von Excel-Rohdaten mittels einer objektorientierten Skriptsprache (Python) sowie Automatisierung der Entwicklung
+und des Testens des Workflows unter Verwendung der API PyAEDT [https://docs.pyansys.com](https://docs.pyansys.com) für Ansys-Software.\
+- Verwendung von Python Bibliotheken wie Tkinter, NumPy, Matplotlib, Pandas, SciPy, Jupyter, Math, Fraction, PyAEDT usw.\
+- Dokumentation und Aktualisierung des Steuerungsablaufdiagramms in Conceptboard\
+- Entwicklung einer Python Tkinter GUI Anwendung, die die Bedienung für den Kunden erleichtert
+- Detaillierte Dokumentation des Arbeitsablaufs im GitLab Issue Board.\
+:::
+
+::: {.experience-item}
+<div class="item-header">
+  <div><span class="item-title">Assistant Systems Engineer</span> <span class="item-company">| TATA CONSULTANCY SERVICES Ltd.</span></div>
+  <span class="item-date">July 2021 – July 2023</span>
+</div>
+- Entwicklung, Migration, Test und Deployment von Web-/Cloud-Anwendungen mit Python, C++, Java, GCP und Git\
+- EDV-Kenntnisse mit Erfahrung in MS-Office und Linux\
+:::
+
+## <i class="fas fa-graduation-cap"></i> Education {.section-title}
+
+::: {.edu-item}
+**MSc. Electronics Engineering**  
+*City-University of Applied Sciences Bremen, Germany (HSB)*  
+<span class="item-date">2023 – 2026</span>  
+
+**Department :** Electrical and Computer Science Department\
+**Course Work :** undamentals of Machine Learning, Sprachmodul Deutsch, Intelligente Sensoren und Instrumentierung\
+**Master Thesis (on going)**: Maschinell unterstützte Co-Optimierung von Motorgeometrie und Hochfrequenz-Schaltparametern des
+Wechselrichters für elektrische UAV-Antriebe
+:::
+
+::: {.edu-item}
+**Batchelor of Technology Electrical and Electronics**  
+*A P J ABDUL KALAM TECHNOLOGICAL UNIVERSITY (KTU)*  
+<span class="item-date">2017 – 2021</span>  
+
+**Kursarbeiten:** Elektrische Maschinen, Leistungselektronik und Regelungstechnik, Computerprogrammierung, Analyse elektrischer
+Energiesysteme\
+**Projekt:** Laststufenschalter für HVDC-Konvertertransformator\
+:::
+
+
 ## <i class="fas fa-globe"></i> Languages {.section-title}
 
 - English (Native)
 - Deutsch (Professional working proficiency)
 
 
-## <i class="fas fa-graduation-cap"></i> Education {.section-title}
 
-::: {.edu-item}
-**MSc. Electronics Engineering**  
-*City-University of Applied Sciences Bremen*  
-<span class="item-date">2023 – 2026</span>  
-
-**Specialization**: Intelligent Sensors and Instrumentation
-
-- Modelling and documentation of 3 - phase measurement system using LabVIEW and Arduino Mega 2560.
-- Verification of the output Characteristics of Transistor (BC547B) using LabVIEW
-- Projects were done and documented to find the concentration of sugar in a sample sugar solution and used python libraries like numpy, matploitlib, scipy_curvefit to validate the results.
-- Certified with a Udemy course on Microcontroller Embedded C Programming and documented a seminar done on the topic of the use case of python in Instrumentation and measurement systems.
-- Currently working on Flutter application of a sudoku solver from scratch.
 :::
 
-::: {.edu-item}
-**Batchelor of Technology**  
-*A P J ABDUL KALAM TECHNOLOGICAL UNIVERSITY*  
-<span class="item-date">2017 – 2021</span>  
-Electrical and Electronics Engineering
+::: {.col-md-8}
 
-- Created a plant maintenance application using Java and later migrated the application to Flutter.
-- Attended certification courses on programming in java, sensors and actuators from Indian Institute of Technology
-- Designed a prototype to control the on-load tap changing for HVDC ' converter transformer.
+## <i class="fas fa-laptop-code"></i> Projects {.section-title}
+
+::: {.project-item}
+<div class="item-header">
+  <div><span class="item-title">Plant App: Flutter/Dart Anwendungsentwicklung</span></div>
+  <span class="item-date">Personal Project</span>
+</div>
+- Softwareentwicklung für Android, iOS und Webanwendungen unter Verwendung von Dart/Flutter für responsives Design
+- Die Anwendung wurde dokumentiert und auf einer persönlichen, in Github gehosteten Website
+bereitgestellt [https://ryanromeodev.github.io/Plant-App](https://ryanromeodev.github.io/Plant-App)
 :::
+
+::: {.project-item}
+<div class="item-header">
+  <div><span class="item-title">Persönliche Website: GitHub-Website</span></div>
+  <span class="item-date">Personal Project</span>
+</div>
+Persönliche Website auf GitHub gehostet, um Fähigkeiten zu präsentieren : [https://ryanromeodev.github.io/resume/](https://ryanromeodev.github.io/resume/)
+:::
+
+::: {.project-item}
+<div class="item-header">
+  <div><span class="item-title">Entwurf und Implementierung eines universellen Biquad-Filters</span></div>
+  <span class="item-date">Academic</span>
+</div>
+- Entwurf und Prüfung eines second-order Universal Active (Biquad) Filter
+- Führen Sie Leiterplatten nahtlos vom Schaltplan über Layout, Validierung und Test bis hin zur einsatzbereiten Hardware.
+- Detaillierte Dokumentation bereitgestellt : [https://ryanromeodev.github.io/hsb-amcd-sose2025-5/](https://ryanromeodev.github.io/hsb-amcd-sose2025-5/)
+:::
+
 
 ## <i class="fas fa-cogs"></i> Skills {.section-title}
 
@@ -51,8 +110,8 @@ Electrical and Electronics Engineering
 **Programming**
 <div class="skill-tags">
   <span class="skill-tag">Python</span>
-  <span class="skill-tag">R</span>
-  <span class="skill-tag">SQL</span>
+  <span class="skill-tag">C++</span>
+  <span class="skill-tag">Flutter</span>
   <span class="skill-tag">Bash</span>
 </div>
 :::
@@ -100,62 +159,5 @@ Electrical and Electronics Engineering
 </div>
 :::
 
-:::
-
-::: {.col-md-8}
-
-## <i class="fas fa-briefcase"></i> Work Experience {.section-title}
-
-
-::: {.experience-item}
-<div class="item-header">
-  <div><span class="item-title">Assistant Systems Engineer</span> <span class="item-company">| TATA CONSULTANCY SERVICES Ltd.</span></div>
-  <span class="item-date">July 2021 – July 2023</span>
-</div>
-I worked as Assistant Systems Engineer for The Home Depot.
-
-- My job and responsibilities were to develop, migrate test and deploy applications which benefited the internal and external retail domain of The Home Depot in scrum methodology
-- Co-ordinated formal review meetings with rangers and on-site managers to discuss the deliverables and timelines along with in depth documentation of the application to ensure smooth workflow and data transfer.
-:::
-
-::: {.experience-item}
-<div class="item-header">
-  <div><span class="item-title">Assistant Systems Engineer</span> <span class="item-company">| TATA CONSULTANCY SERVICES Ltd.</span></div>
-  <span class="item-date">July 2021 – July 2023</span>
-</div>
-I worked as Assistant Systems Engineer for The Home Depot.
-
-- My job and responsibilities were to develop, migrate test and deploy applications which benefited the internal and external retail domain of The Home Depot in scrum methodology
-- Co-ordinated formal review meetings with rangers and on-site managers to discuss the deliverables and timelines along with in depth documentation of the application to ensure smooth workflow and data transfer.
-:::
-
-## <i class="fas fa-laptop-code"></i> Projects {.section-title}
-
-::: {.project-item}
-<div class="item-header">
-  <div><span class="item-title">Customer Churn Prediction</span></div>
-  <span class="item-date">Personal Project</span>
-</div>
-- Built a classification model (XGBoost) achieving 0.89 AUC on a telecom dataset.
-- Interpreted key drivers using SHAP values and created an interactive Streamlit dashboard for business users.
-:::
-
-::: {.project-item}
-<div class="item-header">
-  <div><span class="item-title">Real-time Sales Dashboard</span></div>
-  <span class="item-date">Freelance</span>
-</div>
-- Designed a Power BI dashboard connected to a PostgreSQL database for a retail client.
-- Implemented incremental refresh, reducing data load time by 70%.
-:::
-
-::: {.project-item}
-<div class="item-header">
-  <div><span class="item-title">Sentiment Analysis on Social Media</span></div>
-  <span class="item-date">Academic</span>
-</div>
-- Fine-tuned a BERT model to classify tweets as positive/negative/neutral (F1-score 0.86).
-- Deployed the model as a REST API using FastAPI and Docker.
-:::
 :::
 <!--:::-->

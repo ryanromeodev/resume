@@ -13,12 +13,12 @@ format:
 ::: {.resume-container}
 
 ::: {.profile-photo}
-<img src="./photo.jpg" alt="Ryan Romeo" />
+<img src="images/photo.jpeg" alt="Ryan Romeo" />
 :::
 
 ::: {.resume-header}
 # Ryan Romeo
-### Elektronikingenieur
+### Electronics Engineer | Software Developer 
 
 <div class="contact">
   <a href="mailto:ryanromeode@gmail.com"><i class="fas fa-envelope"></i> ryanromeode@gmail.com</a>
