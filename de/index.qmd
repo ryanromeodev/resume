@@ -16,6 +16,7 @@ format:
 <img src="../images/photo.jpeg" alt="Ryan Romeo" />
 :::
 
+
 ::: {.resume-header}
 # Ryan Romeo
 ### Elektroniker | Softwareentwickler

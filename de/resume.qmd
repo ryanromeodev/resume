@@ -17,7 +17,7 @@ format:
 
 ::: {.experience-item}
 <div class="item-header">
-  <div><span class="item-title">Research Assistant</span> <span class="item-company">| Fraunhofer IFAM.</span></div>
+  <div><span class="item-title">Studentische Hilfskraft (Forschung)</span> <span class="item-company">| Fraunhofer IFAM.</span></div>
   <span class="item-date">July 2021 – July 2023</span>
 </div>
 - Python/C++ - Softwareentwicklung und Workflow-Automatisierung\
@@ -31,28 +31,28 @@ und des Testens des Workflows unter Verwendung der API PyAEDT [https://docs.pyan
 
 ::: {.experience-item}
 <div class="item-header">
-  <div><span class="item-title">Assistant Systems Engineer</span> <span class="item-company">| TATA CONSULTANCY SERVICES Ltd.</span></div>
+  <div><span class="item-title">Assistenz Systemingenieur</span> <span class="item-company">| TATA CONSULTANCY SERVICES Ltd.</span></div>
   <span class="item-date">July 2021 – July 2023</span>
 </div>
 - Entwicklung, Migration, Test und Deployment von Web-/Cloud-Anwendungen mit Python, C++, Java, GCP und Git\
 - EDV-Kenntnisse mit Erfahrung in MS-Office und Linux\
 :::
 
-## <i class="fas fa-graduation-cap"></i> Education {.section-title}
+## <i class="fas fa-graduation-cap"></i> Ausbildung {.section-title}
 
 ::: {.edu-item}
 **MSc. Electronics Engineering**  
 *City-University of Applied Sciences Bremen, Germany (HSB)*  
 <span class="item-date">2023 – 2026</span>  
 
-**Department :** Electrical and Computer Science Department\
-**Course Work :** undamentals of Machine Learning, Sprachmodul Deutsch, Intelligente Sensoren und Instrumentierung\
-**Master Thesis (on going)**: Maschinell unterstützte Co-Optimierung von Motorgeometrie und Hochfrequenz-Schaltparametern des
+**Abteilung:** Abteilung für Elektrotechnik und Informatik\
+**Kursarbeit:** Grundlagen des maschinellen Lernens, Sprachmodul Deutsch, Intelligente Sensoren und Instrumentierung\
+**Masterarbeit (in Bearbeitung)**: Maschinell unterstützte Co-Optimierung von Motorgeometrie und Hochfrequenz-Schaltparametern des
 Wechselrichters für elektrische UAV-Antriebe
 :::
 
 ::: {.edu-item}
-**Batchelor of Technology Electrical and Electronics**  
+**Batchelor of Technology Electrical and Electronics Engineering**  
 *A P J ABDUL KALAM TECHNOLOGICAL UNIVERSITY (KTU)*  
 <span class="item-date">2017 – 2021</span>  
 
@@ -64,8 +64,8 @@ Energiesysteme\
 
 ## <i class="fas fa-globe"></i> Languages {.section-title}
 
-- English (Native)
-- Deutsch (Professional working proficiency)
+- Englisch (Muttersprache)
+- Deutsch (Verhandlungssicher B1)
 
 
 
@@ -78,7 +78,7 @@ Energiesysteme\
 ::: {.project-item}
 <div class="item-header">
   <div><span class="item-title">Plant App: Flutter/Dart Anwendungsentwicklung</span></div>
-  <span class="item-date">Personal Project</span>
+  <span class="item-date">Persönliches Projekt</span>
 </div>
 - Softwareentwicklung für Android, iOS und Webanwendungen unter Verwendung von Dart/Flutter für responsives Design
 - Die Anwendung wurde dokumentiert und auf einer persönlichen, in Github gehosteten Website
@@ -88,7 +88,7 @@ bereitgestellt [https://ryanromeodev.github.io/Plant-App](https://ryanromeodev.g
 ::: {.project-item}
 <div class="item-header">
   <div><span class="item-title">Persönliche Website: GitHub-Website</span></div>
-  <span class="item-date">Personal Project</span>
+  <span class="item-date">Persönliches Projekt</span>
 </div>
 Persönliche Website auf GitHub gehostet, um Fähigkeiten zu präsentieren : [https://ryanromeodev.github.io/resume/](https://ryanromeodev.github.io/resume/)
 :::
@@ -96,7 +96,7 @@ Persönliche Website auf GitHub gehostet, um Fähigkeiten zu präsentieren : [ht
 ::: {.project-item}
 <div class="item-header">
   <div><span class="item-title">Entwurf und Implementierung eines universellen Biquad-Filters</span></div>
-  <span class="item-date">Academic</span>
+  <span class="item-date">Akademisch</span>
 </div>
 - Entwurf und Prüfung eines second-order Universal Active (Biquad) Filter
 - Führen Sie Leiterplatten nahtlos vom Schaltplan über Layout, Validierung und Test bis hin zur einsatzbereiten Hardware.
@@ -104,7 +104,7 @@ Persönliche Website auf GitHub gehostet, um Fähigkeiten zu präsentieren : [ht
 :::
 
 
-## <i class="fas fa-cogs"></i> Skills {.section-title}
+## <i class="fas fa-cogs"></i> Fähigkeiten {.section-title}
 
 ::: {.skill-category}
 **Programming**

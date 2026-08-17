@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Design and Implementation of Universal Biquad Filter">
+<meta name="description" content="Entwurf und Implementierung eines universellen Biquad-Filters">
 
-<title>Universal Biquad Filter Design – Ryan Romeo</title>
+<title>Entwurf eines universellen Biquad-Filters – Ryan Romeo</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -131,8 +131,9 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Auf dieser Seite</h2>
    
   <ul>
-  <li><a href="#pcb-2d-layout" id="toc-pcb-2d-layout" class="nav-link active" data-scroll-target="#pcb-2d-layout">PCB 2D layout</a></li>
-  <li><a href="#final-board-design" id="toc-final-board-design" class="nav-link" data-scroll-target="#final-board-design">Final Board Design</a></li>
+  <li><a href="#zusammenfassung" id="toc-zusammenfassung" class="nav-link active" data-scroll-target="#zusammenfassung">Zusammenfassung</a></li>
+  <li><a href="#d-layout-der-leiterplatte" id="toc-d-layout-der-leiterplatte" class="nav-link" data-scroll-target="#d-layout-der-leiterplatte">2D-Layout der Leiterplatte</a></li>
+  <li><a href="#endgültiges-platinendesign" id="toc-endgültiges-platinendesign" class="nav-link" data-scroll-target="#endgültiges-platinendesign">Endgültiges Platinendesign</a></li>
   </ul>
 </nav>
     </div>
@@ -141,18 +142,19 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Universal Biquad Filter Design</h1>
+<h1 class="title">Entwurf eines universellen Biquad-Filters</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">Soldering</div>
-    <div class="quarto-category">PCB Design</div>
+    <div class="quarto-category">Löten</div>
+    <div class="quarto-category">PCB-Design</div>
     <div class="quarto-category">Python</div>
-    <div class="quarto-category">MatplotLib</div>
+    <div class="quarto-category">Matplotlib</div>
+    <div class="quarto-category">KiCAD</div>
   </div>
   </div>
 
 <div>
   <div class="description">
-    Design and Implementation of Universal Biquad Filter
+    Entwurf und Implementierung eines universellen Biquad-Filters
   </div>
 </div>
 
@@ -163,7 +165,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Veröffentlichungsdatum</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">7. August 2026</p>
+      <p class="date">23. September 2025</p>
     </div>
   </div>
   
@@ -175,18 +177,20 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Hi it’s post 1. Below is the detailed view of my project:</p>
-<section id="pcb-2d-layout" class="level1">
-<h1>PCB 2D layout</h1>
-<p>This is the 2D Ki-CAD Layout for the PCB Design</p>
-<p><img src="../../images/projectimages/2dFrontPCB.png" alt="2D PCB Board design Front" width="800" height="300"></p>
+<section id="zusammenfassung" class="level1">
+<h1>Zusammenfassung</h1>
+<p>Dieses Projekt befasst sich mit dem Entwurf und der Implementierung eines universellen aktiven Filters zweiter Ordnung (Biquad-Filter), der Tiefpass-, Hochpass-, Bandpass- und Bandsperrverhalten realisieren kann. Das Filter wird sowohl in Simulationsumgebungen als auch unter Verwendung des ASLK-PRO-Kits und einer physischen Leiterplatte (PCB) entwickelt und getestet. Die Leistungsfähigkeit wird sowohl im Frequenz- als auch im Zeitbereich analysiert, wobei besonderes Augenmerk auf Verstärkung, Phase und Einschwingverhalten gelegt wird. Die Arbeit stellt den Vergleich zwischen theoretischen Vorhersagen und praktischen Ergebnissen in den Mittelpunkt und hebt dabei wesentliche Kompromisse beim Entwurf analoger Filter hervor.</p>
+</section>
+<section id="d-layout-der-leiterplatte" class="level1">
+<h1>2D-Layout der Leiterplatte</h1>
+<p>Dies ist das 2D-Layout für das Leiterplattendesign (erstellt mit KiCad). <img src="../../images/projectimages/2dFrontPCB.png" alt="2D PCB Board design Front" width="800" height="300"></p>
 <p><img src="../../images/projectimages/2dBackPCB.png" alt="2D PCB Board design Back" width="800" height="300"></p>
 </section>
-<section id="final-board-design" class="level1">
-<h1>Final Board Design</h1>
-<p>This is the final board PCB Design</p>
+<section id="endgültiges-platinendesign" class="level1">
+<h1>Endgültiges Platinendesign</h1>
+<p>Dies ist das endgültige PCB-Design der Platine.</p>
 <p><img src="../../images/projectimages/finalBoard.jpg" alt="PCB Board design" width="800" height="300"></p>
-<p>You can get more info about the project <a href="https://ryanromeodev.github.io/hsb-amcd-sose2025-5/#pcb-design-using-kicad">here</a></p>
+<p>Weitere Informationen zum Projekt findest du <a href="https://ryanromeodev.github.io/hsb-amcd-sose2025-5/#pcb-design-using-kicad">hier</a>.</p>
 
 
 </section>

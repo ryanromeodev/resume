@@ -17,16 +17,15 @@ format:
 
 ::: {.experience-item}
 <div class="item-header">
-  <div><span class="item-title">Research Assistant</span> <span class="item-company">| Fraunhofer IFAM.</span></div>
+  <div><span class="item-title">Student Research Assistant</span> <span class="item-company">| Fraunhofer IFAM.</span></div>
   <span class="item-date">July 2021 – July 2023</span>
 </div>
-- Python/C++ - Softwareentwicklung und Workflow-Automatisierung\
-- Erstverarbeitung von Excel-Rohdaten mittels einer objektorientierten Skriptsprache (Python) sowie Automatisierung der Entwicklung
-und des Testens des Workflows unter Verwendung der API PyAEDT [https://docs.pyansys.com](https://docs.pyansys.com) für Ansys-Software.\
-- Verwendung von Python Bibliotheken wie Tkinter, NumPy, Matplotlib, Pandas, SciPy, Jupyter, Math, Fraction, PyAEDT usw.\
-- Dokumentation und Aktualisierung des Steuerungsablaufdiagramms in Conceptboard\
-- Entwicklung einer Python Tkinter GUI Anwendung, die die Bedienung für den Kunden erleichtert
-- Detaillierte Dokumentation des Arbeitsablaufs im GitLab Issue Board.\
+- Python/C++ - Software Development and Workflow Automation\
+- Initial processing of Excel raw data using an object-oriented scripting language (Python) as well as automation of the development and testing of the workflow using the API PyAEDT [https://docs.pyansys.com](https://docs.pyansys.com) for Ansys software.\
+- Using Python libraries such as Tkinter, NumPy, Matplotlib, Pandas, SciPy, Jupyter, Math, Fraction, PyAEDT, etc.\
+- Documentation and update of the control flow diagram in Conceptboard\
+- Development of a Python Tkinter GUI application that makes it easier for the customer to use\
+- Detailed documentation of the workflow in the GitLab Issue Board.\
 :::
 
 ::: {.experience-item}
@@ -34,8 +33,8 @@ und des Testens des Workflows unter Verwendung der API PyAEDT [https://docs.pyan
   <div><span class="item-title">Assistant Systems Engineer</span> <span class="item-company">| TATA CONSULTANCY SERVICES Ltd.</span></div>
   <span class="item-date">July 2021 – July 2023</span>
 </div>
-- Entwicklung, Migration, Test und Deployment von Web-/Cloud-Anwendungen mit Python, C++, Java, GCP und Git\
-- EDV-Kenntnisse mit Erfahrung in MS-Office und Linux\
+- Development, migration, testing, and deployment of web/cloud applications using Python, C++, Java, GCP, and Git\
+- IT skills with experience in MS Office and Linux
 :::
 
 ## <i class="fas fa-graduation-cap"></i> Education {.section-title}
@@ -46,9 +45,8 @@ und des Testens des Workflows unter Verwendung der API PyAEDT [https://docs.pyan
 <span class="item-date">2023 – 2026</span>  
 
 **Department :** Electrical and Computer Science Department\
-**Course Work :** undamentals of Machine Learning, Sprachmodul Deutsch, Intelligente Sensoren und Instrumentierung\
-**Master Thesis (on going)**: Maschinell unterstützte Co-Optimierung von Motorgeometrie und Hochfrequenz-Schaltparametern des
-Wechselrichters für elektrische UAV-Antriebe
+**Course Work :** Fundamentals of Machine Learning, Sprachmodul Deutsch, Intelligente Sensoren und Instrumentierung\
+**Master Thesis (on going)**: Machine-assisted co-optimization of motor geometry and high-frequency switching parameters of the inverter for electric UAV propulsion systems\
 :::
 
 ::: {.edu-item}
@@ -56,9 +54,8 @@ Wechselrichters für elektrische UAV-Antriebe
 *A P J ABDUL KALAM TECHNOLOGICAL UNIVERSITY (KTU)*  
 <span class="item-date">2017 – 2021</span>  
 
-**Kursarbeiten:** Elektrische Maschinen, Leistungselektronik und Regelungstechnik, Computerprogrammierung, Analyse elektrischer
-Energiesysteme\
-**Projekt:** Laststufenschalter für HVDC-Konvertertransformator\
+**Kursarbeiten:** Electrical machines, power electronics and control engineering, computer programming, analysis of electrical power systems\
+**Project:** On-load tap-changer for HVDC converter transformer\
 :::
 
 
@@ -77,30 +74,29 @@ Energiesysteme\
 
 ::: {.project-item}
 <div class="item-header">
-  <div><span class="item-title">Plant App: Flutter/Dart Anwendungsentwicklung</span></div>
+  <div><span class="item-title">Plant App: Flutter/Dart application development</span></div>
   <span class="item-date">Personal Project</span>
 </div>
-- Softwareentwicklung für Android, iOS und Webanwendungen unter Verwendung von Dart/Flutter für responsives Design
-- Die Anwendung wurde dokumentiert und auf einer persönlichen, in Github gehosteten Website
-bereitgestellt [https://ryanromeodev.github.io/Plant-App](https://ryanromeodev.github.io/Plant-App)
+- Software development for Android, iOS, and web applications using Dart/Flutter for responsive design.\
+- The application has been documented and made available on a personal website hosted on GitHub [https://ryanromeodev.github.io/Plant-App](https://ryanromeodev.github.io/Plant-App)\
 :::
 
 ::: {.project-item}
 <div class="item-header">
-  <div><span class="item-title">Persönliche Website: GitHub-Website</span></div>
+  <div><span class="item-title">Personal Website: GitHub-Website</span></div>
   <span class="item-date">Personal Project</span>
 </div>
-Persönliche Website auf GitHub gehostet, um Fähigkeiten zu präsentieren : [https://ryanromeodev.github.io/resume/](https://ryanromeodev.github.io/resume/)
+Personal website hosted on GitHub to showcase skills: [https://ryanromeodev.github.io/resume/](https://ryanromeodev.github.io/resume/)
 :::
 
 ::: {.project-item}
 <div class="item-header">
-  <div><span class="item-title">Entwurf und Implementierung eines universellen Biquad-Filters</span></div>
+  <div><span class="item-title">Design and implementation of a universal biquad filter</span></div>
   <span class="item-date">Academic</span>
 </div>
-- Entwurf und Prüfung eines second-order Universal Active (Biquad) Filter
-- Führen Sie Leiterplatten nahtlos vom Schaltplan über Layout, Validierung und Test bis hin zur einsatzbereiten Hardware.
-- Detaillierte Dokumentation bereitgestellt : [https://ryanromeodev.github.io/hsb-amcd-sose2025-5/](https://ryanromeodev.github.io/hsb-amcd-sose2025-5/)
+- Design and testing of a second-order universal active (biquad) filter
+- Seamlessly take printed circuit boards from schematic to layout, validation, and testing, through to ready-to-use hardware.
+- Detailed documentation provided: [https://ryanromeodev.github.io/hsb-amcd-sose2025-5/](https://ryanromeodev.github.io/hsb-amcd-sose2025-5/)
 :::
 
 

@@ -2,11 +2,12 @@
 title: "Universal Biquad Filter Design"
 description: "Design and Implementation of Universal Biquad Filter"
 image: "../../images/projectimages/2dFrontPCB.png"
-date: "2026-08-07"
-categories: [Soldering, PCB Design, Python, MatplotLib]
+date: "2025-09-23"
+categories: [Soldering, PCB Design, Python, MatplotLib, KiCAD]
 ---
+# Abstract
 
-Hi it's post 1. Below is the detailed view of my project:
+This project focuses on the design and implementation of a second-order universal active (biquad) filter capable of producing low-pass, high-pass, band-pass, and band-stop responses. The filter is developed and tested across simulation environments, the ASLK PRO kit, and PCB hardware. Its performance is analyzed in both the frequency and time domains, with particular attention to gain, phase, and transient characteristics. The study emphasizes the comparison between theoretical predictions and practical outcomes, highlighting key trade-offs in analog filter design.
 
 # PCB 2D layout
 

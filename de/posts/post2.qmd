@@ -1,13 +1,17 @@
 ---
 title: "PLANT-APP"
-description: "Flutter, Dart Application with File I/O, CRUD, Notification, Themes and Fun for Plant🪴 Enthusiasts and Hobbyist. For more details click here"
+description: "Flutter, Dart-Anwendung mit Datei-E/A, CRUD, Benachrichtigung, Themen und Spaß für Pflanzen🪴 Enthusiasten und Hobbyisten."
 image: "../../images/projectimages/plantapp.png"
-date: "2026-08-23"
-categories: [Machine Learning, Ansys]
+date: "2024-04-15"
+categories: [Flutter, Dart, Android, iOS, web-application]
 ---
 
-Hi it's post 2. Below is the detailed view of my project:
+# Ziel 🪴
+
+Zimmerpflanzen 🪴 entwickeln sich derzeit zu einem echten Lieblingshobby – und das aus gutem Grund! Sie bringen Entspannung und Ruhe in unseren Alltag. Da diese grünen Mitbewohner jedoch im Haus leben, erhalten sie oft weniger Sonnenlicht ☀️ und Nährstoffe aus der Erde als ihre Artgenossen im Freien.
+
+Genau hier setzt die Plant App an! Wir helfen dir dabei, deine Pflanzen regelmäßig und zum richtigen Zeitpunkt mit Nährstoffen zu versorgen, damit sie gesund und glücklich gedeihen 😁
 
 <img src="../../images/projectimages/plantapp.png" alt="Ryan Romeo" />
 
-Here I can write a long, detailed explanation of the project, include code blocks, and show more results!
+You can get more info about the project [here](https://ryanromeodev.github.io/Plant-App/)
