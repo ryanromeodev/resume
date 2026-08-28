@@ -1,0 +1,17 @@
+---
+title: "Co optimisation of Motor Geometry and High Frequency switching inverter using Machine Leaning for UAV Applications"
+description: "Verification of the output Characteristics of Transistor (BC547B) using LabVIEW and familiarization with LabVIEW software"
+image: "../../images/projectimages/Lcode.jpg"
+date: "2024-08-23"
+categories: [Python, Ansys, Maxwell2D, MatplotLib, Data Acquisition]
+---
+
+# Objective
+
+optimising the Electric Drive of a Drone System
+
+<img 
+  src="../../images/projectimages/Lcode.jpg"
+  alt="PCB Board design" 
+  style="width: 100%; max-width: 800px; height: auto;"
+/>
