@@ -3,7 +3,7 @@ title: "PLANT-APP"
 description: "Flutter, Dart-Anwendung mit Datei-E/A, CRUD, Benachrichtigung, Themen und Spaß für Pflanzen🪴 Enthusiasten und Hobbyisten."
 image: "../../images/projectimages/plantapp.png"
 date: "2024-04-15"
-categories: [Flutter, Dart, Android, iOS, web-application]
+categories: [Flutter/Dart, Android, iOS]
 ---
 
 # Ziel 🪴
@@ -14,4 +14,4 @@ Genau hier setzt die Plant App an! Wir helfen dir dabei, deine Pflanzen regelmä
 
 <img src="../../images/projectimages/plantapp.png" alt="Ryan Romeo" />
 
-You can get more info about the project [here](https://ryanromeodev.github.io/Plant-App/)
+You can get more info about the project [here](https://ryanromeodev.github.io/Plant-App/){target="_blank"}

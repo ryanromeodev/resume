@@ -1,0 +1,40 @@
+---
+title: "Entwurf eines universellen Biquad-Filters"
+description: "Entwurf und Implementierung eines universellen Biquad-Filters"
+image: "../../images/projectimages/2dFrontPCB.png"
+date: "2025-09-23"
+categories: [Löten, PCB-Design, Python, KiCAD]
+---
+# Zusammenfassung
+
+Dieses Projekt befasst sich mit dem Entwurf und der Implementierung eines universellen aktiven Filters zweiter Ordnung (Biquad-Filter), der Tiefpass-, Hochpass-, Bandpass- und Bandsperrverhalten realisieren kann. Das Filter wird sowohl in Simulationsumgebungen als auch unter Verwendung des ASLK-PRO-Kits und einer physischen Leiterplatte (PCB) entwickelt und getestet. Die Leistungsfähigkeit wird sowohl im Frequenz- als auch im Zeitbereich analysiert, wobei besonderes Augenmerk auf Verstärkung, Phase und Einschwingverhalten gelegt wird. Die Arbeit stellt den Vergleich zwischen theoretischen Vorhersagen und praktischen Ergebnissen in den Mittelpunkt und hebt dabei wesentliche Kompromisse beim Entwurf analoger Filter hervor.
+
+# 2D-Layout der Leiterplatte
+
+Dies ist das 2D-Layout für das Leiterplattendesign (erstellt mit KiCad).
+<img 
+  src="../../images/projectimages/2dFrontPCB.png" 
+  alt="2D PCB Board design Front" 
+  width="800" 
+  height="300" 
+/>
+
+<img 
+  src="../../images/projectimages/2dBackPCB.png" 
+  alt="2D PCB Board design Back" 
+  width="800" 
+  height="300" 
+/>
+
+# Endgültiges Platinendesign
+
+Dies ist das endgültige PCB-Design der Platine.
+
+<img 
+  src="../../images/projectimages/finalBoard.jpg" 
+  alt="PCB Board design" 
+  width="800" 
+  height="300" 
+/>
+
+Weitere Informationen zum Projekt findest du [hier](https://ryanromeodev.github.io/hsb-amcd-sose2025-5/#pcb-design-using-kicad){target="_blank"}.

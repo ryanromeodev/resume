@@ -1,40 +1,86 @@
 ---
-title: "Entwurf eines universellen Biquad-Filters"
-description: "Entwurf und Implementierung eines universellen Biquad-Filters"
-image: "../../images/projectimages/2dFrontPCB.png"
-date: "2025-09-23"
-categories: [Löten, PCB-Design, Python, Matplotlib, KiCAD]
+title: "Maschinell unterstützte Co-Optimierung von Motorgeometrie und Hochfrequenz-Schaltparametern des Wechselrichters für elektrische UAV-Antriebe"
+description: "Laufende Abschlussarbeit"
+image: "../../images/projectimages/Lcode.jpg"
+date: "2026-10-30"
+categories: [Python, Ansys, Maxwell2D, MATLAB, Machine Learning]
 ---
-# Zusammenfassung
+# Ziel
 
-Dieses Projekt befasst sich mit dem Entwurf und der Implementierung eines universellen aktiven Filters zweiter Ordnung (Biquad-Filter), der Tiefpass-, Hochpass-, Bandpass- und Bandsperrverhalten realisieren kann. Das Filter wird sowohl in Simulationsumgebungen als auch unter Verwendung des ASLK-PRO-Kits und einer physischen Leiterplatte (PCB) entwickelt und getestet. Die Leistungsfähigkeit wird sowohl im Frequenz- als auch im Zeitbereich analysiert, wobei besonderes Augenmerk auf Verstärkung, Phase und Einschwingverhalten gelegt wird. Die Arbeit stellt den Vergleich zwischen theoretischen Vorhersagen und praktischen Ergebnissen in den Mittelpunkt und hebt dabei wesentliche Kompromisse beim Entwurf analoger Filter hervor.
+Die Co-Optimierung des Elektroantriebs für ein UAV-System wird versucht, wobei der Schwerpunkt auf Wechselrichter- und Motorparametern liegt, mit dem Ziel, die Optimierungszeit zu verkünken, wobei der Wechselrichter sich auf Hochfrequenz-Wechselrichter konzentriert. Die Gesamtidee besteht darin, die Problemdefinition per Simulation zu realisieren und für jeden Anwendungsfall des Drohnendesigns nach dem optimalen Sweet Spot zu suchen. Die manuelle Suche im Entwurfsraum erfordert hohe Rechenkosten und würde Jahre brauchen, um zu konvergieren, und daher einen ML-Ansatz mit Modellierung und Vorhersage. Eine einzelne FEA-Analyse dauert 2 Stunden, um in das Ergebnis für die Erzeugung von 2 elektrischen Zyklen für den Motor zu konvergieren.
 
-# 2D-Layout der Leiterplatte
+# Ansatz
+Diese Arbeit stellt eine neuartige Co-Design-Methodik auf Systemebene vor, um dieses Problem zu lösen. Die Idee ist, eine umfassende Datenbasis zu generieren, indem eine große Anzahl von Simulationen über eine Reihe von Motorgeometrien und Wechselrichter-Schaltparametern ausgeführt wird. Dieser Datensatz wird dann verwendet, um ein Ersatz-Regressormodell für maschinelles Lernen zu trainieren, das die Leistung von elektrischen Antriebssystemen vorhersagen kann. Durch die Integration dieses trainierten Ersatzmodells in die op+miza+on-Schleife soll das vorgeschlagene Framework den Prozess dramatisch beschleunigen, indem das gleichzeitige Op+Miza+on der Motorgeometrie und der Wechselrichter-Schaltparameter ermöglicht wird, um die Gesamtleistung des elektrischen UAV-Antriebssystems zu maximieren.
 
-Dies ist das 2D-Layout für das Leiterplattendesign (erstellt mit KiCad).
-<img 
-  src="../../images/projectimages/2dFrontPCB.png" 
-  alt="2D PCB Board design Front" 
-  width="800" 
-  height="300" 
-/>
+# Erstes Design
+
+Der anfängliche Querschnitt des Motors war wie im Bild unten angegeben:
 
 <img 
-  src="../../images/projectimages/2dBackPCB.png" 
-  alt="2D PCB Board design Back" 
-  width="800" 
-  height="300" 
+  src="../../images/projectimages/motorCrossSection.png"
+  alt=" Old Motor Design in Maxwell2D" 
+  style="width: 100%; max-width: 800px; height: auto;"
 />
 
-# Endgültiges Platinendesign
+# Endgültiges Motordesign
 
-Dies ist das endgültige PCB-Design der Platine.
+Das endgültige Design des Motors wurde mit einem UPD-Stator aktualisiert, um noch mehr Feinabstimmung und allgemeine Kontrolle über die Motorparameter zu haben
+
 
 <img 
-  src="../../images/projectimages/finalBoard.jpg" 
-  alt="PCB Board design" 
-  width="800" 
-  height="300" 
+  src="../../images/projectimages/newmotorimage.png"
+  alt="New Motor Design in Maxwell2D" 
+  style="width: 100%; max-width: 800px; height: auto;"
 />
 
-Weitere Informationen zum Projekt findest du [hier](https://ryanromeodev.github.io/hsb-amcd-sose2025-5/#pcb-design-using-kicad).
+# FOC-Kontrollverhaltensmodell
+
+Eine FOC-Steuerung des Verhaltensmodells wurde mit integrierter Clarkes- und Parkes-Transformation entwickelt, um die Drohne in der Nähe des Bereichs mit minimalem Drehmomentwellen zu betreiben. Das Blockdiagramm des FOC-Systems, das aus [1](https://doi.org/10.1007/978-3-662-49271-0){target="_blank"} entnommen ist, ist unten angegeben:
+
+<img 
+  src="../../images/projectimages/FOCBlockDiagram.jpg"
+  alt="FOC Block Diagram" 
+  style="width: 100%; max-width: 800px; height: auto;"
+/>
+
+# Eingabeparameter
+
+Die in Betracht gezogenen Eingabeparameter sind:
+
+* Bs1: Maximale Breite des Steckplatzkeils entnommen aus [2](https://ansyshelp.ansys.com/public/Views/Secured/Electronics/v242/en/Subsystems/Maxwell/Content/SlotCoreUDP.htm){target="_blank"}
+
+* Bs2: Untere Breite des Schlitzkörpers (0 für parallele Zähne) [2](https://ansyshelp.ansys.com/public/Views/Secured/Electronics/v242/en/Subsystems/Maxwell/Content/SlotCoreUDP.htm){target="_blank"}
+
+* Höhe des Magneten
+
+* Dicke des Magneten
+
+* Wechselrichter-Schaltfrequenz (Hochfrequenzen)
+
+Was durch Sensitivitätsanalyse und Pearsons Korrelationskoeffizientenberechnung gefunden wurde.
+
+# Ausgabeparameter
+
+Drehmoment, Drehmomentwelle und Verluste werden berechnet. Für die Referenz sind die Drehmomentdiagramme unten angehängt:
+
+<img 
+  src="../../images/projectimages/motorTorque.png"
+  alt="Motor Torque" 
+  style="width: 100%; max-width: 800px; height: auto;"
+/>
+
+Der Durchschnitt dieser Werte wird für jeden Entwurfspunkt ausgewählt und ein vollständiges faktorielles Design wird mit Python-Skripten mit [PyAEDT](https://aedt.docs.pyansys.com/version/stable/){target="_blank"} erstellt.
+
+# Datenvisualisierung
+
+Das 3D-Diplot wird mit den Ausgabeparametern entlang jeder der Achsen wie folgt in Python erstellt:
+
+<img 
+  src="../../images/projectimages/DoE_pointcloud.png"
+  alt="3D plot" 
+  style="width: 100%; max-width: 800px; height: auto;"
+/>
+
+# Weitere Analyse
+
+Das Surrogate-Modell für maschinelles Lernen muss auf dem Datensatz erstellt und analysiert werden, um schlussfolge Ergebnisse mit Kreuzverifizierung der optimalen Punkte mit FEA-Analyse zu erhalten.

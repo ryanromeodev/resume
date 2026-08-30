@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Entwurf und Implementierung eines universellen Biquad-Filters">
+<meta name="description" content="Laufende Abschlussarbeit">
 
-<title>Entwurf eines universellen Biquad-Filters – Ryan Romeo</title>
+<title>Maschinell unterstützte Co-Optimierung von Motorgeometrie und Hochfrequenz-Schaltparametern des Wechselrichters für elektrische UAV-Antriebe – Ryan Romeo</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -131,9 +131,15 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Auf dieser Seite</h2>
    
   <ul>
-  <li><a href="#zusammenfassung" id="toc-zusammenfassung" class="nav-link active" data-scroll-target="#zusammenfassung">Zusammenfassung</a></li>
-  <li><a href="#d-layout-der-leiterplatte" id="toc-d-layout-der-leiterplatte" class="nav-link" data-scroll-target="#d-layout-der-leiterplatte">2D-Layout der Leiterplatte</a></li>
-  <li><a href="#endgültiges-platinendesign" id="toc-endgültiges-platinendesign" class="nav-link" data-scroll-target="#endgültiges-platinendesign">Endgültiges Platinendesign</a></li>
+  <li><a href="#ziel" id="toc-ziel" class="nav-link active" data-scroll-target="#ziel">Ziel</a></li>
+  <li><a href="#ansatz" id="toc-ansatz" class="nav-link" data-scroll-target="#ansatz">Ansatz</a></li>
+  <li><a href="#erstes-design" id="toc-erstes-design" class="nav-link" data-scroll-target="#erstes-design">Erstes Design</a></li>
+  <li><a href="#endgültiges-motordesign" id="toc-endgültiges-motordesign" class="nav-link" data-scroll-target="#endgültiges-motordesign">Endgültiges Motordesign</a></li>
+  <li><a href="#foc-kontrollverhaltensmodell" id="toc-foc-kontrollverhaltensmodell" class="nav-link" data-scroll-target="#foc-kontrollverhaltensmodell">FOC-Kontrollverhaltensmodell</a></li>
+  <li><a href="#eingabeparameter" id="toc-eingabeparameter" class="nav-link" data-scroll-target="#eingabeparameter">Eingabeparameter</a></li>
+  <li><a href="#ausgabeparameter" id="toc-ausgabeparameter" class="nav-link" data-scroll-target="#ausgabeparameter">Ausgabeparameter</a></li>
+  <li><a href="#datenvisualisierung" id="toc-datenvisualisierung" class="nav-link" data-scroll-target="#datenvisualisierung">Datenvisualisierung</a></li>
+  <li><a href="#weitere-analyse" id="toc-weitere-analyse" class="nav-link" data-scroll-target="#weitere-analyse">Weitere Analyse</a></li>
   </ul>
 </nav>
     </div>
@@ -142,19 +148,19 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Entwurf eines universellen Biquad-Filters</h1>
+<h1 class="title">Maschinell unterstützte Co-Optimierung von Motorgeometrie und Hochfrequenz-Schaltparametern des Wechselrichters für elektrische UAV-Antriebe</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">Löten</div>
-    <div class="quarto-category">PCB-Design</div>
     <div class="quarto-category">Python</div>
-    <div class="quarto-category">Matplotlib</div>
-    <div class="quarto-category">KiCAD</div>
+    <div class="quarto-category">Ansys</div>
+    <div class="quarto-category">Maxwell2D</div>
+    <div class="quarto-category">MATLAB</div>
+    <div class="quarto-category">Machine Learning</div>
   </div>
   </div>
 
 <div>
   <div class="description">
-    Entwurf und Implementierung eines universellen Biquad-Filters
+    Laufende Abschlussarbeit
   </div>
 </div>
 
@@ -165,7 +171,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Veröffentlichungsdatum</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">23. September 2025</p>
+      <p class="date">30. Oktober 2026</p>
     </div>
   </div>
   
@@ -177,20 +183,55 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="zusammenfassung" class="level1">
-<h1>Zusammenfassung</h1>
-<p>Dieses Projekt befasst sich mit dem Entwurf und der Implementierung eines universellen aktiven Filters zweiter Ordnung (Biquad-Filter), der Tiefpass-, Hochpass-, Bandpass- und Bandsperrverhalten realisieren kann. Das Filter wird sowohl in Simulationsumgebungen als auch unter Verwendung des ASLK-PRO-Kits und einer physischen Leiterplatte (PCB) entwickelt und getestet. Die Leistungsfähigkeit wird sowohl im Frequenz- als auch im Zeitbereich analysiert, wobei besonderes Augenmerk auf Verstärkung, Phase und Einschwingverhalten gelegt wird. Die Arbeit stellt den Vergleich zwischen theoretischen Vorhersagen und praktischen Ergebnissen in den Mittelpunkt und hebt dabei wesentliche Kompromisse beim Entwurf analoger Filter hervor.</p>
+<section id="ziel" class="level1">
+<h1>Ziel</h1>
+<p>Die Co-Optimierung des Elektroantriebs für ein UAV-System wird versucht, wobei der Schwerpunkt auf Wechselrichter- und Motorparametern liegt, mit dem Ziel, die Optimierungszeit zu verkünken, wobei der Wechselrichter sich auf Hochfrequenz-Wechselrichter konzentriert. Die Gesamtidee besteht darin, die Problemdefinition per Simulation zu realisieren und für jeden Anwendungsfall des Drohnendesigns nach dem optimalen Sweet Spot zu suchen. Die manuelle Suche im Entwurfsraum erfordert hohe Rechenkosten und würde Jahre brauchen, um zu konvergieren, und daher einen ML-Ansatz mit Modellierung und Vorhersage. Eine einzelne FEA-Analyse dauert 2 Stunden, um in das Ergebnis für die Erzeugung von 2 elektrischen Zyklen für den Motor zu konvergieren.</p>
 </section>
-<section id="d-layout-der-leiterplatte" class="level1">
-<h1>2D-Layout der Leiterplatte</h1>
-<p>Dies ist das 2D-Layout für das Leiterplattendesign (erstellt mit KiCad). <img src="../../images/projectimages/2dFrontPCB.png" alt="2D PCB Board design Front" width="800" height="300"></p>
-<p><img src="../../images/projectimages/2dBackPCB.png" alt="2D PCB Board design Back" width="800" height="300"></p>
+<section id="ansatz" class="level1">
+<h1>Ansatz</h1>
+<p>Diese Arbeit stellt eine neuartige Co-Design-Methodik auf Systemebene vor, um dieses Problem zu lösen. Die Idee ist, eine umfassende Datenbasis zu generieren, indem eine große Anzahl von Simulationen über eine Reihe von Motorgeometrien und Wechselrichter-Schaltparametern ausgeführt wird. Dieser Datensatz wird dann verwendet, um ein Ersatz-Regressormodell für maschinelles Lernen zu trainieren, das die Leistung von elektrischen Antriebssystemen vorhersagen kann. Durch die Integration dieses trainierten Ersatzmodells in die op+miza+on-Schleife soll das vorgeschlagene Framework den Prozess dramatisch beschleunigen, indem das gleichzeitige Op+Miza+on der Motorgeometrie und der Wechselrichter-Schaltparameter ermöglicht wird, um die Gesamtleistung des elektrischen UAV-Antriebssystems zu maximieren.</p>
 </section>
-<section id="endgültiges-platinendesign" class="level1">
-<h1>Endgültiges Platinendesign</h1>
-<p>Dies ist das endgültige PCB-Design der Platine.</p>
-<p><img src="../../images/projectimages/finalBoard.jpg" alt="PCB Board design" width="800" height="300"></p>
-<p>Weitere Informationen zum Projekt findest du <a href="https://ryanromeodev.github.io/hsb-amcd-sose2025-5/#pcb-design-using-kicad">hier</a>.</p>
+<section id="erstes-design" class="level1">
+<h1>Erstes Design</h1>
+<p>Der anfängliche Querschnitt des Motors war wie im Bild unten angegeben:</p>
+<p><img src="../../images/projectimages/motorCrossSection.png" alt=" Old Motor Design in Maxwell2D" style="width: 100%; max-width: 800px; height: auto;"></p>
+</section>
+<section id="endgültiges-motordesign" class="level1">
+<h1>Endgültiges Motordesign</h1>
+<p>Das endgültige Design des Motors wurde mit einem UPD-Stator aktualisiert, um noch mehr Feinabstimmung und allgemeine Kontrolle über die Motorparameter zu haben</p>
+<p><img src="../../images/projectimages/newmotorimage.png" alt="New Motor Design in Maxwell2D" style="width: 100%; max-width: 800px; height: auto;"></p>
+</section>
+<section id="foc-kontrollverhaltensmodell" class="level1">
+<h1>FOC-Kontrollverhaltensmodell</h1>
+<p>Eine FOC-Steuerung des Verhaltensmodells wurde mit integrierter Clarkes- und Parkes-Transformation entwickelt, um die Drohne in der Nähe des Bereichs mit minimalem Drehmomentwellen zu betreiben. Das Blockdiagramm des FOC-Systems, das aus <a href="https://doi.org/10.1007/978-3-662-49271-0" target="_blank">1</a> entnommen ist, ist unten angegeben:</p>
+<p><img src="../../images/projectimages/FOCBlockDiagram.jpg" alt="FOC Block Diagram" style="width: 100%; max-width: 800px; height: auto;"></p>
+</section>
+<section id="eingabeparameter" class="level1">
+<h1>Eingabeparameter</h1>
+<p>Die in Betracht gezogenen Eingabeparameter sind:</p>
+<ul>
+<li><p>Bs1: Maximale Breite des Steckplatzkeils entnommen aus <a href="https://ansyshelp.ansys.com/public/Views/Secured/Electronics/v242/en/Subsystems/Maxwell/Content/SlotCoreUDP.htm" target="_blank">2</a></p></li>
+<li><p>Bs2: Untere Breite des Schlitzkörpers (0 für parallele Zähne) <a href="https://ansyshelp.ansys.com/public/Views/Secured/Electronics/v242/en/Subsystems/Maxwell/Content/SlotCoreUDP.htm" target="_blank">2</a></p></li>
+<li><p>Höhe des Magneten</p></li>
+<li><p>Dicke des Magneten</p></li>
+<li><p>Wechselrichter-Schaltfrequenz (Hochfrequenzen)</p></li>
+</ul>
+<p>Was durch Sensitivitätsanalyse und Pearsons Korrelationskoeffizientenberechnung gefunden wurde.</p>
+</section>
+<section id="ausgabeparameter" class="level1">
+<h1>Ausgabeparameter</h1>
+<p>Drehmoment, Drehmomentwelle und Verluste werden berechnet. Für die Referenz sind die Drehmomentdiagramme unten angehängt:</p>
+<p><img src="../../images/projectimages/motorTorque.png" alt="Motor Torque" style="width: 100%; max-width: 800px; height: auto;"></p>
+<p>Der Durchschnitt dieser Werte wird für jeden Entwurfspunkt ausgewählt und ein vollständiges faktorielles Design wird mit Python-Skripten mit <a href="https://aedt.docs.pyansys.com/version/stable/" target="_blank">PyAEDT</a> erstellt.</p>
+</section>
+<section id="datenvisualisierung" class="level1">
+<h1>Datenvisualisierung</h1>
+<p>Das 3D-Diplot wird mit den Ausgabeparametern entlang jeder der Achsen wie folgt in Python erstellt:</p>
+<p><img src="../../images/projectimages/DoE_pointcloud.png" alt="3D plot" style="width: 100%; max-width: 800px; height: auto;"></p>
+</section>
+<section id="weitere-analyse" class="level1">
+<h1>Weitere Analyse</h1>
+<p>Das Surrogate-Modell für maschinelles Lernen muss auf dem Datensatz erstellt und analysiert werden, um schlussfolge Ergebnisse mit Kreuzverifizierung der optimalen Punkte mit FEA-Analyse zu erhalten.</p>
 
 
 </section>

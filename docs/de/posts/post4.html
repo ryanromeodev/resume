@@ -1,15 +1,14 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="de-DE" xml:lang="de-DE"><head>
 
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2026-10-30">
-<meta name="description" content="Thesis on-going">
+<meta name="description" content="Entwurf und Implementierung eines universellen Biquad-Filters">
 
-<title>Machine Learning-Assisted Co-Optimization of Motor Geometry and High-Frequency Inverter Switching Parameters for UAV Electric Drives – Ryan Romeo</title>
+<title>Entwurf eines universellen Biquad-Filters – Ryan Romeo</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -63,17 +62,17 @@ ul.task-list li input[type="checkbox"] {
   ],
   "show-item-context": false,
   "language": {
-    "search-no-results-text": "No results",
-    "search-matching-documents-text": "matching documents",
-    "search-copy-link-title": "Copy link to search",
-    "search-hide-matches-text": "Hide additional matches",
-    "search-more-match-text": "more match in this document",
-    "search-more-matches-text": "more matches in this document",
-    "search-clear-button-title": "Clear",
+    "search-no-results-text": "Keine Treffer",
+    "search-matching-documents-text": "Treffer",
+    "search-copy-link-title": "Link in die Suche kopieren",
+    "search-hide-matches-text": "Zusätzliche Treffer verbergen",
+    "search-more-match-text": "weitere Treffer in diesem Dokument",
+    "search-more-matches-text": "weitere Treffer in diesem Dokument",
+    "search-clear-button-title": "Zurücksetzen",
     "search-text-placeholder": "",
-    "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit",
-    "search-label": "Search"
+    "search-detached-cancel-button-title": "Abbrechen",
+    "search-submit-button-title": "Abschicken",
+    "search-label": "Suchen"
   }
 }</script>
 
@@ -92,29 +91,29 @@ ul.task-list li input[type="checkbox"] {
     <span class="navbar-title">Ryan Romeo</span>
     </a>
   </div>
-            <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+            <div id="quarto-search" class="" title="Suchen"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Navigation umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../en/about.html"> 
-<span class="menu-text">About</span></a>
+    <a class="nav-link" href="../../de/about.html"> 
+<span class="menu-text">Über mich</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../en/resume.html"> 
-<span class="menu-text">Resume</span></a>
+    <a class="nav-link" href="../../de/resume.html"> 
+<span class="menu-text">Lebenslauf</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../en/projects.html"> 
-<span class="menu-text">Projects</span></a>
+    <a class="nav-link" href="../../de/projects.html"> 
+<span class="menu-text">Projekte</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../de/index.html"> 
-<span class="menu-text">Deutsch</span></a>
+    <a class="nav-link" href="../../en/index.html"> 
+<span class="menu-text">English</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -129,18 +128,12 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
+    <h2 id="toc-title">Auf dieser Seite</h2>
    
   <ul>
-  <li><a href="#objective" id="toc-objective" class="nav-link active" data-scroll-target="#objective">Objective</a></li>
-  <li><a href="#approach" id="toc-approach" class="nav-link" data-scroll-target="#approach">Approach</a></li>
-  <li><a href="#initial-design" id="toc-initial-design" class="nav-link" data-scroll-target="#initial-design">Initial Design</a></li>
-  <li><a href="#final-motor-design" id="toc-final-motor-design" class="nav-link" data-scroll-target="#final-motor-design">Final Motor Design</a></li>
-  <li><a href="#foc-control-behavioural-model" id="toc-foc-control-behavioural-model" class="nav-link" data-scroll-target="#foc-control-behavioural-model">FOC Control behavioural model</a></li>
-  <li><a href="#input-parameters" id="toc-input-parameters" class="nav-link" data-scroll-target="#input-parameters">Input parameters</a></li>
-  <li><a href="#output-parameters" id="toc-output-parameters" class="nav-link" data-scroll-target="#output-parameters">Output parameters</a></li>
-  <li><a href="#data-visualisation" id="toc-data-visualisation" class="nav-link" data-scroll-target="#data-visualisation">Data Visualisation</a></li>
-  <li><a href="#further-analysis" id="toc-further-analysis" class="nav-link" data-scroll-target="#further-analysis">Further analysis</a></li>
+  <li><a href="#zusammenfassung" id="toc-zusammenfassung" class="nav-link active" data-scroll-target="#zusammenfassung">Zusammenfassung</a></li>
+  <li><a href="#d-layout-der-leiterplatte" id="toc-d-layout-der-leiterplatte" class="nav-link" data-scroll-target="#d-layout-der-leiterplatte">2D-Layout der Leiterplatte</a></li>
+  <li><a href="#endgültiges-platinendesign" id="toc-endgültiges-platinendesign" class="nav-link" data-scroll-target="#endgültiges-platinendesign">Endgültiges Platinendesign</a></li>
   </ul>
 </nav>
     </div>
@@ -149,19 +142,18 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Machine Learning-Assisted Co-Optimization of Motor Geometry and High-Frequency Inverter Switching Parameters for UAV Electric Drives</h1>
+<h1 class="title">Entwurf eines universellen Biquad-Filters</h1>
   <div class="quarto-categories">
+    <div class="quarto-category">Löten</div>
+    <div class="quarto-category">PCB-Design</div>
     <div class="quarto-category">Python</div>
-    <div class="quarto-category">Ansys</div>
-    <div class="quarto-category">Maxwell2D</div>
-    <div class="quarto-category">MATLAB</div>
-    <div class="quarto-category">Machine Learning</div>
+    <div class="quarto-category">KiCAD</div>
   </div>
   </div>
 
 <div>
   <div class="description">
-    Thesis on-going
+    Entwurf und Implementierung eines universellen Biquad-Filters
   </div>
 </div>
 
@@ -170,9 +162,9 @@ ul.task-list li input[type="checkbox"] {
 
     
     <div>
-    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-heading">Veröffentlichungsdatum</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">October 30, 2026</p>
+      <p class="date">23. September 2025</p>
     </div>
   </div>
   
@@ -184,47 +176,20 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="objective" class="level1">
-<h1>Objective</h1>
-<p>Co-Optimisation of the Electric Drive for a UAV system is attempted with focus on inverter and motor parameters with the goal of reduction of optimisation time with the inverter focus on High frequency inverter. The. overall idea is to realise the problem definition via simulation and to check for the optimum sweet spot for each use case of the drone design. Manual search on the design space require heavy computational cost and would require years to converge and hence a ML approach with modelling and prediction. A single FEA Analysis takes 2 Hours to converge into the result for producing 2 electrical cycles for the motor.</p>
+<section id="zusammenfassung" class="level1">
+<h1>Zusammenfassung</h1>
+<p>Dieses Projekt befasst sich mit dem Entwurf und der Implementierung eines universellen aktiven Filters zweiter Ordnung (Biquad-Filter), der Tiefpass-, Hochpass-, Bandpass- und Bandsperrverhalten realisieren kann. Das Filter wird sowohl in Simulationsumgebungen als auch unter Verwendung des ASLK-PRO-Kits und einer physischen Leiterplatte (PCB) entwickelt und getestet. Die Leistungsfähigkeit wird sowohl im Frequenz- als auch im Zeitbereich analysiert, wobei besonderes Augenmerk auf Verstärkung, Phase und Einschwingverhalten gelegt wird. Die Arbeit stellt den Vergleich zwischen theoretischen Vorhersagen und praktischen Ergebnissen in den Mittelpunkt und hebt dabei wesentliche Kompromisse beim Entwurf analoger Filter hervor.</p>
 </section>
-<section id="approach" class="level1">
-<h1>Approach</h1>
-<p>This thesis introduces a novel system-level co-design methodology to resolve this issue. The idea is to generate a comprehensive data basis by running a large number of simula+ons across a range of motor geometries and inverter switching parameters. This dataset is then used to train a surrogate machine learning regressor model that can predict the performance of electric drive systems. By integra+ng this trained surrogate model into the op+miza+on loop, the proposed framework is intended to drama+cally accelerate the process, allowing for the concurrent op+miza+on of motor geometry and inverter switching parameters to maximize the overall performance of the UAV electric drive system.</p>
+<section id="d-layout-der-leiterplatte" class="level1">
+<h1>2D-Layout der Leiterplatte</h1>
+<p>Dies ist das 2D-Layout für das Leiterplattendesign (erstellt mit KiCad). <img src="../../images/projectimages/2dFrontPCB.png" alt="2D PCB Board design Front" width="800" height="300"></p>
+<p><img src="../../images/projectimages/2dBackPCB.png" alt="2D PCB Board design Back" width="800" height="300"></p>
 </section>
-<section id="initial-design" class="level1">
-<h1>Initial Design</h1>
-<p>The initial cross section of the motor was as per the image below: <img src="../../images/projectimages/motorCrossSection.png" alt=" Old Motor Design in Maxwell2D" style="width: 100%; max-width: 800px; height: auto;"></p>
-</section>
-<section id="final-motor-design" class="level1">
-<h1>Final Motor Design</h1>
-<p>The final design of the motor was updated with UPD stator to have even further fine tuned and generic control over the motor paramaeters</p>
-<p><img src="../../images/projectimages/newmotorimage.png" alt="New Motor Design in Maxwell2D" style="width: 100%; max-width: 800px; height: auto;"></p>
-</section>
-<section id="foc-control-behavioural-model" class="level1">
-<h1>FOC Control behavioural model</h1>
-<p>An FOC control of behavioural model was developed with integrated clarkes and parkes transform to make the drone operate near the minimal torque ripple region of operation. The block diagram of the FOC system which is taken from <a href="https://doi.org/10.1007/978-3-662-49271-0" target="_blank">1</a> is given below:</p>
-<p><img src="../../images/projectimages/FOCBlockDiagram.jpg" alt="FOC Block Diagram" style="width: 100%; max-width: 800px; height: auto;"></p>
-</section>
-<section id="input-parameters" class="level1">
-<h1>Input parameters</h1>
-<p>The input parameters under consideration are: * Bs1 : Slot wedge maximum width taken from <a href="https://ansyshelp.ansys.com/public/Views/Secured/Electronics/v242/en/Subsystems/Maxwell/Content/SlotCoreUDP.htm" target="_blank">2</a> * Bs2 : Slot body bottom width (0 for parallel teeth) <a href="https://ansyshelp.ansys.com/public/Views/Secured/Electronics/v242/en/Subsystems/Maxwell/Content/SlotCoreUDP.htm" target="_blank">2</a> * Height of the magnet * Thickness of the magnet * Inverter Switching Frequency of operation (High-frequencies)</p>
-<p>Which was found by sensitivity analysis and pearson’s correlation coefficient calculation.</p>
-</section>
-<section id="output-parameters" class="level1">
-<h1>Output parameters</h1>
-<p>Torque, Torque Ripple and Losses are calculated. For the reference the Torque graphs is attached below:</p>
-<p><img src="../../images/projectimages/motorTorque.png" alt="Motor Torque" style="width: 100%; max-width: 800px; height: auto;"></p>
-<p>The average of these values are selected for each design points and a Full factorial designs are made using python scripting using <a href="https://aedt.docs.pyansys.com/version/stable/" target="_blank">PyAEDT</a>.</p>
-</section>
-<section id="data-visualisation" class="level1">
-<h1>Data Visualisation</h1>
-<p>The 3D plot is made with the output parameters along each of the axis as follows in python:</p>
-<p><img src="../../images/projectimages/DoE_pointcloud.png" alt="3D plot" style="width: 100%; max-width: 800px; height: auto;"></p>
-</section>
-<section id="further-analysis" class="level1">
-<h1>Further analysis</h1>
-<p>Machine Learning Surrogate model is to be made on the dataset and anlysed to have a concllusive results with cross verification of the optimum points with FEA analysis.</p>
+<section id="endgültiges-platinendesign" class="level1">
+<h1>Endgültiges Platinendesign</h1>
+<p>Dies ist das endgültige PCB-Design der Platine.</p>
+<p><img src="../../images/projectimages/finalBoard.jpg" alt="PCB Board design" width="800" height="300"></p>
+<p>Weitere Informationen zum Projekt findest du <a href="https://ryanromeodev.github.io/hsb-amcd-sose2025-5/#pcb-design-using-kicad" target="_blank">hier</a>.</p>
 
 
 </section>
@@ -255,12 +220,12 @@ ul.task-list li input[type="checkbox"] {
       // flash "checked"
       button.classList.add('code-copy-button-checked');
       var currentTitle = button.getAttribute("title");
-      button.setAttribute("title", "Copied!");
+      button.setAttribute("title", "Kopiert");
       let tooltip;
       if (window.bootstrap) {
         button.setAttribute("data-bs-toggle", "tooltip");
         button.setAttribute("data-bs-placement", "left");
-        button.setAttribute("data-bs-title", "Copied!");
+        button.setAttribute("data-bs-title", "Kopiert");
         tooltip = new bootstrap.Tooltip(button, 
           { trigger: "manual", 
             customClass: "code-copy-button-tooltip",

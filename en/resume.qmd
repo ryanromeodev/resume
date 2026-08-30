@@ -101,11 +101,22 @@ Personal website hosted on GitHub to showcase skills: [https://ryanromeodev.gith
 
 
 ## <i class="fas fa-cogs"></i> Skills {.section-title}
+::: {.skill-category}
+**Technical**
+<div class="skill-tags">
+  <span class="skill-tag">Electrical Machines</span>
+  <span class="skill-tag">Ansys Maxwell2D</span>
+  <span class="skill-tag">PyAEDT</span>
+  <span class="skill-tag">PCB Design</span>
+  <span class="skill-tag">KiCAD</span>
+</div>
+:::
 
 ::: {.skill-category}
 **Programming**
 <div class="skill-tags">
   <span class="skill-tag">Python</span>
+  <span class="skill-tag">Tkinter</span>
   <span class="skill-tag">C++</span>
   <span class="skill-tag">Flutter</span>
   <span class="skill-tag">Bash</span>
@@ -116,30 +127,25 @@ Personal website hosted on GitHub to showcase skills: [https://ryanromeodev.gith
 **Data Science**
 <div class="skill-tags">
   <span class="skill-tag">Pandas</span>
+  <span class="skill-tag">Numpy</span>
   <span class="skill-tag">Scikit-learn</span>
-  <span class="skill-tag">TensorFlow</span>
-  <span class="skill-tag">XGBoost</span>
-  <span class="skill-tag">NLP</span>
+  <span class="skill-tag">Regression and Curve Fitting</span>
 </div>
 :::
 
 ::: {.skill-category}
-**Visualization**
+**Visualization and Documentation**
 <div class="skill-tags">
+  <span class="skill-tag">LaTeX</span>
   <span class="skill-tag">Matplotlib</span>
   <span class="skill-tag">Seaborn</span>
-  <span class="skill-tag">Plotly</span>
-  <span class="skill-tag">Tableau</span>
-  <span class="skill-tag">Power BI</span>
 </div>
 :::
 
 ::: {.skill-category}
 **Tools & Platforms**
 <div class="skill-tags">
-  <span class="skill-tag">Git</span>
-  <span class="skill-tag">Docker</span>
-  <span class="skill-tag">AWS (S3, EC2)</span>
+  <span class="skill-tag">Git/GitLabs</span>
   <span class="skill-tag">Jupyter</span>
   <span class="skill-tag">VS Code</span>
 </div>
@@ -149,9 +155,8 @@ Personal website hosted on GitHub to showcase skills: [https://ryanromeodev.gith
 **Soft Skills**
 <div class="skill-tags">
   <span class="skill-tag">Problem-solving</span>
-  <span class="skill-tag">Communication</span>
-  <span class="skill-tag">Team Leadership</span>
-  <span class="skill-tag">Agile/Scrum</span>
+  <span class="skill-tag">Analyytical Thinking</span>
+  <span class="skill-tag">Result Oriented</span>
 </div>
 :::
 

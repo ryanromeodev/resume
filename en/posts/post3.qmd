@@ -8,7 +8,7 @@ categories: [Python, MatplotLib, Data Acquisition]
 
 # Objective
 
-Construction of a 3 Phase measurement system using LabVIEW
+Construction of a 3 Phase measurement system using LabVIEW. The same is modelled with python and cross verified the integrity of LabVIEW software.
 
 <img 
   src="../../images/projectimages/Lcode.jpg"

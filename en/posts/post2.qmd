@@ -14,4 +14,4 @@ That’s where Plant App comes in! We help you provide regular, timely food (soi
 
 <img src="../../images/projectimages/plantapp.png" alt="Ryan Romeo" />
 
-You can get more info about the project [here](https://ryanromeodev.github.io/Plant-App/)
+You can get more info about the project [here](https://ryanromeodev.github.io/Plant-App/){target="_blank"}.
