@@ -190,7 +190,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="approach" class="level1">
 <h1>Approach</h1>
-<p>This thesis introduces a novel system-level co-design methodology to resolve this issue. The idea is to generate a comprehensive data basis by running a large number of simula+ons across a range of motor geometries and inverter switching parameters. This dataset is then used to train a surrogate machine learning regressor model that can predict the performance of electric drive systems. By integra+ng this trained surrogate model into the op+miza+on loop, the proposed framework is intended to drama+cally accelerate the process, allowing for the concurrent op+miza+on of motor geometry and inverter switching parameters to maximize the overall performance of the UAV electric drive system.</p>
+<p>This thesis introduces a system-level co-design methodology to resolve this issue. The idea is to generate a comprehensive data basis by running a large number of simulations across a range of motor geometries and inverter switching parameters. This dataset is then used to train a surrogate machine learning regressor model that can predict the performance of electric drive systems. By integrating this trained surrogate model into the optimization loop, the proposed framework is intended to accelerate the process, allowing for the concurrent optimization of motor geometry and inverter switching parameters to maximize the overall performance of the UAV electric drive system.</p>
 </section>
 <section id="initial-design" class="level1">
 <h1>Initial Design</h1>
@@ -208,7 +208,14 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="input-parameters" class="level1">
 <h1>Input parameters</h1>
-<p>The input parameters under consideration are: * Bs1 : Slot wedge maximum width taken from <a href="https://ansyshelp.ansys.com/public/Views/Secured/Electronics/v242/en/Subsystems/Maxwell/Content/SlotCoreUDP.htm" target="_blank">2</a> * Bs2 : Slot body bottom width (0 for parallel teeth) <a href="https://ansyshelp.ansys.com/public/Views/Secured/Electronics/v242/en/Subsystems/Maxwell/Content/SlotCoreUDP.htm" target="_blank">2</a> * Height of the magnet * Thickness of the magnet * Inverter Switching Frequency of operation (High-frequencies)</p>
+<p>The input parameters under consideration are:</p>
+<ul>
+<li>Bs1 : Slot wedge maximum width taken from <a href="https://ansyshelp.ansys.com/public/Views/Secured/Electronics/v242/en/Subsystems/Maxwell/Content/SlotCoreUDP.htm" target="_blank">2</a></li>
+<li>Bs2 : Slot body bottom width (0 for parallel teeth) <a href="https://ansyshelp.ansys.com/public/Views/Secured/Electronics/v242/en/Subsystems/Maxwell/Content/SlotCoreUDP.htm" target="_blank">2</a></li>
+<li>Height of the magnet</li>
+<li>Thickness of the magnet</li>
+<li>Inverter Switching Frequency of operation (High-frequencies)</li>
+</ul>
 <p>Which was found by sensitivity analysis and pearson’s correlation coefficient calculation.</p>
 </section>
 <section id="output-parameters" class="level1">

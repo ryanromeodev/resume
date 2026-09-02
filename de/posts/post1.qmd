@@ -10,7 +10,7 @@ categories: [Python, Ansys, Maxwell2D, MATLAB, Machine Learning]
 Die Co-Optimierung des Elektroantriebs für ein UAV-System wird versucht, wobei der Schwerpunkt auf Wechselrichter- und Motorparametern liegt, mit dem Ziel, die Optimierungszeit zu verkünken, wobei der Wechselrichter sich auf Hochfrequenz-Wechselrichter konzentriert. Die Gesamtidee besteht darin, die Problemdefinition per Simulation zu realisieren und für jeden Anwendungsfall des Drohnendesigns nach dem optimalen Sweet Spot zu suchen. Die manuelle Suche im Entwurfsraum erfordert hohe Rechenkosten und würde Jahre brauchen, um zu konvergieren, und daher einen ML-Ansatz mit Modellierung und Vorhersage. Eine einzelne FEA-Analyse dauert 2 Stunden, um in das Ergebnis für die Erzeugung von 2 elektrischen Zyklen für den Motor zu konvergieren.
 
 # Ansatz
-Diese Arbeit stellt eine neuartige Co-Design-Methodik auf Systemebene vor, um dieses Problem zu lösen. Die Idee ist, eine umfassende Datenbasis zu generieren, indem eine große Anzahl von Simulationen über eine Reihe von Motorgeometrien und Wechselrichter-Schaltparametern ausgeführt wird. Dieser Datensatz wird dann verwendet, um ein Ersatz-Regressormodell für maschinelles Lernen zu trainieren, das die Leistung von elektrischen Antriebssystemen vorhersagen kann. Durch die Integration dieses trainierten Ersatzmodells in die op+miza+on-Schleife soll das vorgeschlagene Framework den Prozess dramatisch beschleunigen, indem das gleichzeitige Op+Miza+on der Motorgeometrie und der Wechselrichter-Schaltparameter ermöglicht wird, um die Gesamtleistung des elektrischen UAV-Antriebssystems zu maximieren.
+Diese Arbeit stellt eine neuartige Co-Design-Methodik auf Systemebene vor, um dieses Problem zu lösen. Die Idee besteht darin, eine umfassende Datenbasis zu schaffen, indem eine große Anzahl von Simulationen für verschiedene Motorgeometrien und Schaltparameter des Wechselrichters durchgeführt wird. Dieser Datensatz dient anschließend dazu, ein Ersatzmodell (Surrogate Model) auf Basis von maschinellem Lernen zu trainieren, das die Leistungsfähigkeit elektrischer Antriebssysteme vorhersagen kann. Durch die Integration dieses trainierten Ersatzmodells in die Optimierungsschleife soll der Prozess beschleunigt werden, sodass eine gleichzeitige Optimierung von Motorgeometrie und Wechselrichter-Schaltparametern möglich ist, um die Gesamtleistung des elektrischen Antriebssystems der UAVs zu maximieren.
 
 # Erstes Design
 
@@ -48,13 +48,9 @@ Eine FOC-Steuerung des Verhaltensmodells wurde mit integrierter Clarkes- und Par
 Die in Betracht gezogenen Eingabeparameter sind:
 
 * Bs1: Maximale Breite des Steckplatzkeils entnommen aus [2](https://ansyshelp.ansys.com/public/Views/Secured/Electronics/v242/en/Subsystems/Maxwell/Content/SlotCoreUDP.htm){target="_blank"}
-
 * Bs2: Untere Breite des Schlitzkörpers (0 für parallele Zähne) [2](https://ansyshelp.ansys.com/public/Views/Secured/Electronics/v242/en/Subsystems/Maxwell/Content/SlotCoreUDP.htm){target="_blank"}
-
 * Höhe des Magneten
-
 * Dicke des Magneten
-
 * Wechselrichter-Schaltfrequenz (Hochfrequenzen)
 
 Was durch Sensitivitätsanalyse und Pearsons Korrelationskoeffizientenberechnung gefunden wurde.

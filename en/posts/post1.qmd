@@ -11,13 +11,7 @@ categories: [Python, Ansys, Maxwell2D, MATLAB, Machine Learning]
 Co-Optimisation of the Electric Drive for a UAV system is attempted with focus on inverter and motor parameters with the goal of reduction of optimisation time with the inverter focus on High frequency inverter. The. overall idea is to realise the problem definition via simulation and to check for the optimum sweet spot for each use case of the drone design. Manual search on the design space require heavy computational cost and would require years to converge and hence a ML approach with modelling and prediction. A single FEA Analysis takes 2 Hours to converge into the result for producing 2 electrical cycles for the motor. 
 
 # Approach
-This thesis introduces a novel system-level co-design methodology to resolve this issue. The
-idea is to generate a comprehensive data basis by running a large number of simula+ons across a range
-of motor geometries and inverter switching parameters. This dataset is then used to train a surrogate
-machine learning regressor model that can predict the performance of electric drive systems. By
-integra+ng this trained surrogate model into the op+miza+on loop, the proposed framework is intended
-to drama+cally accelerate the process, allowing for the concurrent op+miza+on of motor geometry and
-inverter switching parameters to maximize the overall performance of the UAV electric drive system.
+This thesis introduces a system-level co-design methodology to resolve this issue. The idea is to generate a comprehensive data basis by running a large number of simulations across a range of motor geometries and inverter switching parameters. This dataset is then used to train a surrogate machine learning regressor model that can predict the performance of electric drive systems. By integrating this trained surrogate model into the optimization loop, the proposed framework is intended to accelerate the process, allowing for the concurrent optimization of motor geometry and inverter switching parameters to maximize the overall performance of the UAV electric drive system.
 
 # Initial Design
 The initial cross section of the motor was as per the image below:
@@ -48,6 +42,7 @@ An FOC control of behavioural model was developed with integrated clarkes and pa
 # Input parameters
 
 The input parameters under consideration are:
+
 * Bs1 : Slot wedge maximum width taken from [2](https://ansyshelp.ansys.com/public/Views/Secured/Electronics/v242/en/Subsystems/Maxwell/Content/SlotCoreUDP.htm){target="_blank"}
 * Bs2 : Slot body bottom width (0 for parallel teeth) [2](https://ansyshelp.ansys.com/public/Views/Secured/Electronics/v242/en/Subsystems/Maxwell/Content/SlotCoreUDP.htm){target="_blank"}
 * Height of the magnet

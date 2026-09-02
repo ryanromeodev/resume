@@ -189,7 +189,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="ansatz" class="level1">
 <h1>Ansatz</h1>
-<p>Diese Arbeit stellt eine neuartige Co-Design-Methodik auf Systemebene vor, um dieses Problem zu lösen. Die Idee ist, eine umfassende Datenbasis zu generieren, indem eine große Anzahl von Simulationen über eine Reihe von Motorgeometrien und Wechselrichter-Schaltparametern ausgeführt wird. Dieser Datensatz wird dann verwendet, um ein Ersatz-Regressormodell für maschinelles Lernen zu trainieren, das die Leistung von elektrischen Antriebssystemen vorhersagen kann. Durch die Integration dieses trainierten Ersatzmodells in die op+miza+on-Schleife soll das vorgeschlagene Framework den Prozess dramatisch beschleunigen, indem das gleichzeitige Op+Miza+on der Motorgeometrie und der Wechselrichter-Schaltparameter ermöglicht wird, um die Gesamtleistung des elektrischen UAV-Antriebssystems zu maximieren.</p>
+<p>Diese Arbeit stellt eine neuartige Co-Design-Methodik auf Systemebene vor, um dieses Problem zu lösen. Die Idee besteht darin, eine umfassende Datenbasis zu schaffen, indem eine große Anzahl von Simulationen für verschiedene Motorgeometrien und Schaltparameter des Wechselrichters durchgeführt wird. Dieser Datensatz dient anschließend dazu, ein Ersatzmodell (Surrogate Model) auf Basis von maschinellem Lernen zu trainieren, das die Leistungsfähigkeit elektrischer Antriebssysteme vorhersagen kann. Durch die Integration dieses trainierten Ersatzmodells in die Optimierungsschleife soll der Prozess beschleunigt werden, sodass eine gleichzeitige Optimierung von Motorgeometrie und Wechselrichter-Schaltparametern möglich ist, um die Gesamtleistung des elektrischen Antriebssystems der UAVs zu maximieren.</p>
 </section>
 <section id="erstes-design" class="level1">
 <h1>Erstes Design</h1>
@@ -210,11 +210,11 @@ ul.task-list li input[type="checkbox"] {
 <h1>Eingabeparameter</h1>
 <p>Die in Betracht gezogenen Eingabeparameter sind:</p>
 <ul>
-<li><p>Bs1: Maximale Breite des Steckplatzkeils entnommen aus <a href="https://ansyshelp.ansys.com/public/Views/Secured/Electronics/v242/en/Subsystems/Maxwell/Content/SlotCoreUDP.htm" target="_blank">2</a></p></li>
-<li><p>Bs2: Untere Breite des Schlitzkörpers (0 für parallele Zähne) <a href="https://ansyshelp.ansys.com/public/Views/Secured/Electronics/v242/en/Subsystems/Maxwell/Content/SlotCoreUDP.htm" target="_blank">2</a></p></li>
-<li><p>Höhe des Magneten</p></li>
-<li><p>Dicke des Magneten</p></li>
-<li><p>Wechselrichter-Schaltfrequenz (Hochfrequenzen)</p></li>
+<li>Bs1: Maximale Breite des Steckplatzkeils entnommen aus <a href="https://ansyshelp.ansys.com/public/Views/Secured/Electronics/v242/en/Subsystems/Maxwell/Content/SlotCoreUDP.htm" target="_blank">2</a></li>
+<li>Bs2: Untere Breite des Schlitzkörpers (0 für parallele Zähne) <a href="https://ansyshelp.ansys.com/public/Views/Secured/Electronics/v242/en/Subsystems/Maxwell/Content/SlotCoreUDP.htm" target="_blank">2</a></li>
+<li>Höhe des Magneten</li>
+<li>Dicke des Magneten</li>
+<li>Wechselrichter-Schaltfrequenz (Hochfrequenzen)</li>
 </ul>
 <p>Was durch Sensitivitätsanalyse und Pearsons Korrelationskoeffizientenberechnung gefunden wurde.</p>
 </section>
